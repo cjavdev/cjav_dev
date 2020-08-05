@@ -35,11 +35,11 @@ Feel free to correct my answers 😂 on [StackOverflow](https://stackoverflow.co
 {%- endfor -%}
 </ul>
 
-## Shameless Affiliate Links
-
-Here's some links to things that I really enjoy, and hope you do to! Buy things so I can get affiliate 🤑
-
- - [Transistor.fm](https://transistor.fm/?via=cj)
- - [Peloton](https://www.onepeloton.com/referrals/PV6BBX/social-share) ($100 off accessories!)
+<!-- ## Shameless Affiliate Links -->
+<!--  -->
+<!-- Here's some links to things that I really enjoy, and hope you do to! Buy things so I can get affiliate 🤑 -->
+<!--  -->
+<!--  - [Transistor.fm](https://transistor.fm/?via=cj) -->
+<!--  - [Peloton](https://www.onepeloton.com/referrals/PV6BBX/social-share) ($100 off accessories!) -->
 <!--  - [TaxJar](https://taxjar.grsm.io/cjavilla8858) -->
 <!--  - [TradeGecko](https://go.tradegecko.com/register?code=cjavilla) -->
