@@ -32,14 +32,6 @@ module.exports = function(config) {
       return minified.code;
   });
 
-  // config.addCollection('dateSort', function(collectionApi) {
-  //   console.log('dateSort');
-  //   return collectionApi.getAll().sort(function(a, b) {
-  //     return b.date - a.date;
-  //   });
-  // });
-
-
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
 

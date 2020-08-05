@@ -19,7 +19,7 @@ gem 'pusher_rails'
 
 # config/initializers/pusher.rb
 require 'pusher'
-Pusher.url = &quot;http://#{ some key they give you }@api.pusherapp.com/apps/#{ some app id they give you }&quot;
+Pusher.url = "http://#{ some key they give you }@api.pusherapp.com/apps/#{ some app id they give you }";
 Pusher.logger = Rails.logger
 ```
 
