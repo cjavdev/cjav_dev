@@ -1,11 +1,20 @@
 /* breakpoints for media queries */
 $narrow: 400px;
 $mid: 740px;
-$wide: 1200px;
+$wide: 900px;
 
 /* colours */
-$page-color: #2424bb;
-$text-color: #fff;
-$accent-color: #27a4de;
+$page-color: #1cd8ae;
+$text-color: #000;
+$accent-color: #c2f7eb;
 $dark-color: #000;
 
+
+$code-editor-bg: #313E3B;
+$code-editor-text: #C2E9F7;
+$code-strings: #F7C2E9;
+$code-numbers: #E9F7C2;
+$code-comments: #92B9B0;
+$code-keywords: #EBC2F7;
+$code-operators: #F0FDFA;
+$code-selectors: #F7C2CE;

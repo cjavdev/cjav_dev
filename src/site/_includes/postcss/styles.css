@@ -14,11 +14,9 @@
   background-color: $text-color;
   color: $page-color;
 }
-
 html {
   background-color: $accent-color;
 }
-
 body {
   text-align: center;
   background-color: $page-color;
@@ -28,8 +26,8 @@ body {
   font-size: 16px;
   line-height: 1.8;
   min-height: 100vh;
-  background:  $page-color;
-  background: url(/images/bg-grid.png), linear-gradient(320deg, $page-color 0%, $accent-color 100%);
+  background:  $accent-color;
+  background: linear-gradient(320deg, $page-color 0%, $accent-color 100%);
 
   @media (min-width: $narrow) {
     font-size: 18px;
@@ -48,7 +46,6 @@ body {
     width: 700px;
   };
 }
-
 
 h1, h2, h3 {
   color: $text-color;
@@ -147,8 +144,8 @@ a:focus {
 
 code {
   font-size: 0.8em;
-  background-color: mix($text-color,$accent-color, 80%);
-  color: rgb(42, 65, 77);
+  background-color: $code-editor-bg;
+  color: $code-editor-text;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-left: 6px;
