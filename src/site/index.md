@@ -10,16 +10,15 @@ My partner in crime and I podcast about general life stuff  🎙 @ [avillatheory
 
 ## Let's connect!
 
-DMs are open and I'm happy to chat [@cjav_dev](https://twitter.com/cjav_dev)!
+_Twitter_: DMs are open and I'm happy to chat [@cjav_dev](https://twitter.com/cjav_dev)!
 
-Also down to [Link In 😉](https://www.linkedin.com/in/cjavilla/), 💼 style.
+_LinkedIn_: Also down to [Link In 😉](https://www.linkedin.com/in/cjavilla/), 💼 style.
 
-Did I mention, I screencast 🖥🎥?  [personal](https://www.youtube.com/channel/UCYUC-bdnQRJDhZRL2c_NKVw?view_as=subscriber) || [work](https://www.youtube.com/channel/UCd1HAa7hlN5SCQjgCcGnsxw?view_as=subscriber)
+_YouTube_: Did I mention, I screencast 🖥🎥?  [personal](https://www.youtube.com/channel/UCYUC-bdnQRJDhZRL2c_NKVw?view_as=subscriber) || [work](https://www.youtube.com/channel/UCd1HAa7hlN5SCQjgCcGnsxw?view_as=subscriber)
 
-Want to lurk my GitHub? [@cjavilla-stripe (work)](https://github.com/cjavilla-stripe) || [@cjavdev (personal)](https://github.com/cjavdev).
+_GitHub_: Want to lurk on stuff I'm building? [@cjavilla-stripe (work)](https://github.com/cjavilla-stripe) || [@cjavdev (personal)](https://github.com/cjavdev).
 
-Feel free to correct my answers 😂 on [StackOverflow](https://stackoverflow.com/users/2530680/cjav-dev).
-
+_StackOverflow_: Feel free to correct my answers 😂 on [StackOverflow](https://stackoverflow.com/users/2530680/cjav-dev).
 
 
 ## Writing
