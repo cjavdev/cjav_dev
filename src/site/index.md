@@ -4,7 +4,7 @@ subtitle:
 layout: layouts/base.njk
 ---
 
-I'm CJ Avilla, and I help developers integrate [@StripeDev](http://twitter.com/stripedev) 💳!
+I'm CJ Avilla, and I help developers integrate [Stripe](http://stripe.com) 💳!
 
 <div class="itme"></div>
 
@@ -15,7 +15,7 @@ and generous friends and online strangers in the form of video content.
 When AFK, I work on projects around the house and play games with my wife and
 our two sons.
 
-My partner in crime and I podcast about family, health, parenting, real estate, and money 🎙 @ [avillatheory.com](https://avillatheory.com)
+My partner in crime and I podcast about family, health, parenting, real estate, and money 🎙 @ [avillatheory.com](https://www.avillatheory.com)
 
 ## Let's connect!
 
