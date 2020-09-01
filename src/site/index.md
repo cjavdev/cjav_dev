@@ -29,6 +29,18 @@ My partner in crime and I podcast about family, health, parenting, real estate, 
 | GitHub (work) | [@cjavilla-stripe](https://github.com/cjavilla-stripe)  |
 | StackOverflow | [cjav_dev](https://stackoverflow.com/users/2530680/cjav-dev) |
 
+## Recent Videos
+
+<ul class="listing">
+  <li>
+    <a href="https://www.youtube.com/watch?v=LhMPRWOtdZ4" target="_blank">CJ Avilla - Intro to values and types in JavaScript</a>
+    <time datetime="August 30, 2020">August 30, 2020</time>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=u8H6awDJVpM" target="_blank">Stripe Developers - Integrating the customer portal</a>
+    <time datetime="June 29, 2020">June 29, 2020</time>
+  </li>
+</ul>
 
 ## Podcast Episodes
 
