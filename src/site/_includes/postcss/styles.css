@@ -6,6 +6,32 @@
   padding: 0;
 }
 
+/* CJ Starts trying to write css here */
+.itme {
+  width: 60%;
+  display: inline-block;
+  content: url("http://localhost:8080/images/cj1.jpg");
+}
+
+.itme:hover {
+  content: url("http://localhost:8080/images/wave.jpg");
+}
+
+table td:last-child {
+  padding-left: 20px;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+.listing time {
+  font-size: .5em;
+  display: block;
+}
+/* CJ stops trying to write css here */
+
 ::-moz-selection {
   background-color: $text-color;
   color: $page-color;

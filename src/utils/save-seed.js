@@ -1,6 +1,5 @@
 // Handy to save the results to a local file
 // to prime the dev data source
-
 const fs = require("fs");
 
 module.exports = (data, path) => {

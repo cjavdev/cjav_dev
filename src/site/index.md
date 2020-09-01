@@ -1,24 +1,45 @@
 ---
 title: Hi friends!
-subtitle: I'm CJ Avilla, and I help developers integrate @StripeDev 💳!
+subtitle:
 layout: layouts/base.njk
 ---
 
-I love learning languages and tech stacks 🥞 and sharing that 🎥.
+I'm CJ Avilla, and I help developers integrate [@StripeDev](http://twitter.com/stripedev) 💳!
 
-My partner in crime and I podcast about general life stuff  🎙 @ [avillatheory.com](https://avillatheory.com)
+<div class="itme"></div>
+
+I'm interested in learning new programming languages; building high leverage
+tools; and recently, sharing what I've learned from dozens of other incredible
+and generous friends and online strangers in the form of video content.
+
+When AFK, I work on projects around the house and play games with my wife and
+our two sons.
+
+My partner in crime and I podcast about family, health, parenting, real estate, and money 🎙 @ [avillatheory.com](https://avillatheory.com)
 
 ## Let's connect!
 
-_Twitter_: DMs are open and I'm happy to chat [@cjav_dev](https://twitter.com/cjav_dev)!
+|   |   |
+|---|---|
+| Twitter | [@cjav_dev](https://twitter.com/cjav_dev) |
+| LinkedIn | [cjavilla](https://www.linkedin.com/in/cjavilla/)  |
+| YouTube (personal) | [CJ Avilla](https://www.youtube.com/channel/UCYUC-bdnQRJDhZRL2c_NKVw?view_as=subscriber) |
+| YouTube (work) | [Stripe Developers](https://www.youtube.com/channel/UCd1HAa7hlN5SCQjgCcGnsxw?view_as=subscriber) |
+| GitHub (personal) | [@cjavdev](https://github.com/cjavdev) |
+| GitHub (work) | [@cjavilla-stripe](https://github.com/cjavilla-stripe)  |
+| StackOverflow | [cjav_dev](https://stackoverflow.com/users/2530680/cjav-dev) |
 
-_LinkedIn_: Also down to [Link In 😉](https://www.linkedin.com/in/cjavilla/), 💼 style.
 
-_YouTube_: Did I mention, I screencast 🖥🎥?  [personal](https://www.youtube.com/channel/UCYUC-bdnQRJDhZRL2c_NKVw?view_as=subscriber) || [work](https://www.youtube.com/channel/UCd1HAa7hlN5SCQjgCcGnsxw?view_as=subscriber)
+## Podcast Episodes
 
-_GitHub_: Want to lurk on stuff I'm building? [@cjavilla-stripe (work)](https://github.com/cjavilla-stripe) || [@cjavdev (personal)](https://github.com/cjavdev).
-
-_StackOverflow_: Feel free to correct my answers 😂 on [StackOverflow](https://stackoverflow.com/users/2530680/cjav-dev).
+<ul class="listing">
+{%- for ep in transistor.data -%}
+  <li>
+    <a href="{{ ep.attributes.share_url }}" target="_blank">{{ ep.attributes.title }}</a>
+    <time datetime="{{ ep.attributes.published_at }}">{{ ep.attributes.formatted_published_at }}</time>
+  </li>
+{%- endfor -%}
+</ul>
 
 
 ## Writing
@@ -28,7 +49,7 @@ _StackOverflow_: Feel free to correct my answers 😂 on [StackOverflow](https:/
 <ul class="listing">
 {%- for page in collections.post | reverse -%}
   <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a> -
+    <a href="{{ page.url }}">{{ page.data.title }}</a>
     <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
   </li>
 {%- endfor -%}

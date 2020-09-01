@@ -2,7 +2,7 @@ const axios  = require('axios');
 const toJSON = require('xml2js').parseString;
 const seed = require('../../../utils/save-seed.js');
 
-var url = process.env.MEDIUM_FEED ||'https://medium.com/feed/netlify';
+var url = process.env.MEDIUM_FEED || 'https://medium.com/feed/netlify';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
