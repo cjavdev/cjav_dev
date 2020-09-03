@@ -10,11 +10,11 @@
 .itme {
   width: 60%;
   display: inline-block;
-  content: url("http://localhost:8080/images/cj1.jpg");
+  content: url("https://cjav.dev/images/cj1.jpg");
 }
 
 .itme:hover {
-  content: url("http://localhost:8080/images/wave.jpg");
+  content: url("https://cjav.dev/images/wave.jpg");
 }
 
 table td:last-child {
