@@ -74,4 +74,3 @@ Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
 
 - /api/hello
 - /api/fetch-joke
-

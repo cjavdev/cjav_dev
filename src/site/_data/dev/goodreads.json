@@ -1,0 +1,3438 @@
+{
+  "id": "34788469",
+  "name": "CJ",
+  "user_name": "",
+  "link": "https://www.goodreads.com/user/show/34788469-cj",
+  "image_url": "https://images.gr-assets.com/users/1453589968p3/34788469.jpg",
+  "small_image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+  "about": "",
+  "age": "",
+  "gender": "",
+  "location": "",
+  "website": "",
+  "joined": "09/2014",
+  "last_active": "11/2020",
+  "interests": "",
+  "favorite_books": "",
+  "favorite_authors": "\n    ",
+  "updates_rss_url": "https://www.goodreads.com/user/updates_rss/34788469?key=y0cnrgPbgdhFLXJRAoZtNZAnOG1cKsP_dt7dfDFQTTrVhy2b",
+  "reviews_rss_url": "https://www.goodreads.com/review/list_rss/34788469?key=y0cnrgPbgdhFLXJRAoZtNZAnOG1cKsP_dt7dfDFQTTrVhy2b&shelf=%23ALL%23",
+  "friends_count": {
+    "_": "116",
+    "type": "integer"
+  },
+  "groups_count": "0",
+  "reviews_count": {
+    "_": "379",
+    "type": "integer"
+  },
+  "user_shelves": {
+    "type": "array",
+    "user_shelf": [
+      {
+        "id": {
+          "_": "113148390",
+          "type": "integer"
+        },
+        "name": "read",
+        "book_count": {
+          "_": "207",
+          "type": "integer"
+        },
+        "exclusive_flag": {
+          "_": "true",
+          "type": "boolean"
+        },
+        "sort": {
+          "nil": "true"
+        },
+        "order": {
+          "nil": "true"
+        },
+        "per_page": {
+          "type": "integer",
+          "nil": "true"
+        },
+        "display_fields": "",
+        "featured": {
+          "_": "false",
+          "type": "boolean"
+        },
+        "recommend_for": {
+          "_": "false",
+          "type": "boolean"
+        },
+        "sticky": {
+          "type": "boolean",
+          "nil": "true"
+        }
+      },
+      {
+        "id": {
+          "_": "113148389",
+          "type": "integer"
+        },
+        "name": "currently-reading",
+        "book_count": {
+          "_": "3",
+          "type": "integer"
+        },
+        "exclusive_flag": {
+          "_": "true",
+          "type": "boolean"
+        },
+        "sort": {
+          "nil": "true"
+        },
+        "order": {
+          "nil": "true"
+        },
+        "per_page": {
+          "type": "integer",
+          "nil": "true"
+        },
+        "display_fields": "",
+        "featured": {
+          "_": "false",
+          "type": "boolean"
+        },
+        "recommend_for": {
+          "_": "false",
+          "type": "boolean"
+        },
+        "sticky": {
+          "type": "boolean",
+          "nil": "true"
+        }
+      },
+      {
+        "id": {
+          "_": "113148388",
+          "type": "integer"
+        },
+        "name": "to-read",
+        "book_count": {
+          "_": "169",
+          "type": "integer"
+        },
+        "exclusive_flag": {
+          "_": "true",
+          "type": "boolean"
+        },
+        "sort": {
+          "nil": "true"
+        },
+        "order": "a",
+        "per_page": {
+          "type": "integer",
+          "nil": "true"
+        },
+        "display_fields": "",
+        "featured": {
+          "_": "false",
+          "type": "boolean"
+        },
+        "recommend_for": {
+          "_": "true",
+          "type": "boolean"
+        },
+        "sticky": {
+          "type": "boolean",
+          "nil": "true"
+        }
+      },
+      {
+        "id": {
+          "_": "314102446",
+          "type": "integer"
+        },
+        "name": "favorites",
+        "book_count": {
+          "_": "7",
+          "type": "integer"
+        },
+        "exclusive_flag": {
+          "_": "false",
+          "type": "boolean"
+        },
+        "sort": {
+          "nil": "true"
+        },
+        "order": {
+          "nil": "true"
+        },
+        "per_page": {
+          "type": "integer",
+          "nil": "true"
+        },
+        "display_fields": "",
+        "featured": {
+          "_": "true",
+          "type": "boolean"
+        },
+        "recommend_for": {
+          "_": "true",
+          "type": "boolean"
+        },
+        "sticky": {
+          "type": "boolean",
+          "nil": "true"
+        }
+      }
+    ]
+  },
+  "updates": {
+    "type": "array",
+    "update": [
+      {
+        "type": "readstatus",
+        "action_text": "wants to read <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/3619809032\">Big Magic: Creative Living Beyond Fear</a>",
+        "link": "https://www.goodreads.com/read_statuses/3975318982",
+        "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Thu, 29 Oct 2020 16:23:43 -0700",
+        "object": {
+          "read_status": {
+            "id": {
+              "_": "3975318982",
+              "type": "integer"
+            },
+            "review_id": {
+              "_": "3619809032",
+              "type": "integer"
+            },
+            "user_id": {
+              "_": "34788469",
+              "type": "integer"
+            },
+            "old_status": {
+              "nil": "true"
+            },
+            "status": "to-read",
+            "updated_at": {
+              "_": "2020-10-29T23:23:43+00:00",
+              "type": "datetime"
+            },
+            "review": {
+              "id": {
+                "_": "3619809032",
+                "type": "integer"
+              },
+              "user_id": {
+                "_": "34788469",
+                "type": "integer"
+              },
+              "book_id": {
+                "_": "24453082",
+                "type": "integer"
+              },
+              "rating": {
+                "_": "0",
+                "type": "integer"
+              },
+              "read_status": "to-read",
+              "sell_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "review": {
+                "nil": "true"
+              },
+              "recommendation": {
+                "nil": "true"
+              },
+              "read_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "updated_at": {
+                "_": "2020-10-29T23:23:43+00:00",
+                "type": "datetime"
+              },
+              "created_at": {
+                "_": "2020-10-29T23:23:43+00:00",
+                "type": "datetime"
+              },
+              "comments_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "weight": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_sum": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "spoiler_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "recommender_user_id1": {
+                "_": "0",
+                "type": "integer"
+              },
+              "recommender_user_name1": {
+                "nil": "true"
+              },
+              "work_id": {
+                "_": "44044797",
+                "type": "integer"
+              },
+              "last_comment_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "started_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "hidden_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "language_code": {
+                "type": "integer",
+                "nil": "true"
+              },
+              "last_revision_at": {
+                "_": "2020-10-29T23:23:43+00:00",
+                "type": "datetime"
+              },
+              "non_friends_rating_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "encrypted_notes": {
+                "nil": "true"
+              },
+              "book_uri": "kca://book/amzn1.gr.book.v1._fjTf2mOsgcTELA8W1NZeQ",
+              "notes": {
+                "nil": "true"
+              },
+              "book": {
+                "id": {
+                  "_": "24453082",
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": "44044797",
+                  "type": "integer"
+                },
+                "isbn": "1594634718",
+                "isbn13": "9781594634710",
+                "title": "Big Magic: Creative Living Beyond Fear",
+                "sort_by_title": "big magic: creative living beyond fear",
+                "author_id": {
+                  "_": "11679",
+                  "type": "integer"
+                },
+                "author_role": {
+                  "nil": "true"
+                },
+                "asin": {
+                  "nil": "true"
+                },
+                "description": {
+                  "nil": "true"
+                },
+                "format": "Hardcover",
+                "publication_year": {
+                  "_": "2015",
+                  "type": "integer"
+                },
+                "publication_month": {
+                  "_": "9",
+                  "type": "integer"
+                },
+                "publication_day": {
+                  "_": "22",
+                  "type": "integer"
+                },
+                "num_pages": {
+                  "_": "288",
+                  "type": "integer"
+                },
+                "publisher": "Riverhead Books",
+                "language_code": "eng",
+                "edition_information": {
+                  "nil": "true"
+                },
+                "url": {
+                  "nil": "true"
+                },
+                "source_url": {
+                  "nil": "true"
+                },
+                "image_uploaded_at": {
+                  "_": "2015-12-30T03:30:42+00:00",
+                  "type": "datetime"
+                },
+                "s3_image_at": {
+                  "_": "2015-12-30T03:30:43+00:00",
+                  "type": "datetime"
+                },
+                "reviews_count": {
+                  "_": "353412",
+                  "type": "integer"
+                },
+                "ratings_sum": {
+                  "_": "529090",
+                  "type": "integer"
+                },
+                "ratings_count": {
+                  "_": "135372",
+                  "type": "integer"
+                },
+                "text_reviews_count": {
+                  "_": "10303",
+                  "type": "integer"
+                },
+                "book_authors_count": {
+                  "_": "0",
+                  "type": "integer"
+                },
+                "updated_at": {
+                  "_": "2020-11-02T09:27:18+00:00",
+                  "type": "datetime"
+                },
+                "created_at": {
+                  "_": "2015-01-12T03:04:44+00:00",
+                  "type": "datetime"
+                },
+                "author_id_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "author_role_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "description_updater_user_id": {
+                  "_": "1237196",
+                  "type": "integer"
+                },
+                "edition_information_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "format_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "image_updater_user_id": {
+                  "_": "37389714",
+                  "type": "integer"
+                },
+                "isbn_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "isbn13_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "language_updater_user_id": {
+                  "_": "7492276",
+                  "type": "integer"
+                },
+                "num_pages_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "publication_date_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "publisher_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "title_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "url_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "title_language_code": {
+                  "nil": "true"
+                },
+                "publisher_language_code": {
+                  "nil": "true"
+                },
+                "description_language_code": {
+                  "nil": "true"
+                },
+                "asin_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "book_uri": "kca://book/amzn1.gr.book.v1._fjTf2mOsgcTELA8W1NZeQ",
+                "author": {
+                  "id": {
+                    "_": "11679",
+                    "type": "integer"
+                  },
+                  "name": "Elizabeth Gilbert",
+                  "updated_at": {
+                    "_": "2020-11-02T22:37:34+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2006-12-27T19:54:14+00:00",
+                    "type": "datetime"
+                  },
+                  "image_uploaded_at": {
+                    "_": "2015-08-27T23:42:09+00:00",
+                    "type": "datetime"
+                  },
+                  "user_id": {
+                    "_": "30628002",
+                    "type": "integer"
+                  },
+                  "gender": "F",
+                  "country_code": "US",
+                  "born_at": {
+                    "_": "1969-07-18",
+                    "type": "date"
+                  },
+                  "died_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "about": "\r\n<b>Elizabeth Gilbert</b> is an award-winning writer of both fiction and non-fiction.  Her short story collection <i>Pilgrims</i> was a finalist for the PEN/Hemingway award, and her novel <i>Stern Men</i> was a New York Times notable book.  Her 2002 book The Last American Man was a finalist for both the National Book Award and the National Book Critic’s Circle Award. \r\n\r\nHer memoir, <i>Eat, Pray, Love</i>, spent 57 weeks in the #1 spot on the New York Times paperback bestseller list.  It has shipped over 6 million copies in the US and has been published in over thirty languages. A film adaptation of the book was released by Columbia Pictures with an all star cast: Julia Roberts as Gilbert, Javier Bardem as Felipe, James Franco as David, Billy Crudup as her ex-husband and Richard Jenkins as Richard from Texas.\r\n\r\nHer latest novel, <i>The Signature of All Things</i>, will be available on October 1, 2013. The credit for her profile picture belongs to Jennifer Schatten. ",
+                  "uploader_user_id": {
+                    "_": "603238",
+                    "type": "integer"
+                  },
+                  "image_copyright": "Photo Credit: Timothy Greenfield-Sanders. Image provided by publisher.",
+                  "influences": "",
+                  "url": "http://www.elizabethgilbert.com",
+                  "genre1": "Memoir",
+                  "genre2": "Biography",
+                  "genre3": "Literature & Fiction",
+                  "books_count": {
+                    "_": "885",
+                    "type": "integer"
+                  },
+                  "reviews_count": {
+                    "_": "3364703",
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": "7114483",
+                    "type": "integer"
+                  },
+                  "works_count": {
+                    "_": "38",
+                    "type": "integer"
+                  },
+                  "hometown": "Waterbury, Connecticut",
+                  "rating_dist": "5:66697|4:72194|3:66037|2:36524|1:28940|total:270392",
+                  "s3_image_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "ratings_count": {
+                    "_": "1952175",
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": "101222",
+                    "type": "integer"
+                  },
+                  "author_program_at": {
+                    "_": "2014-04-17T17:37:03+00:00",
+                    "type": "datetime"
+                  },
+                  "best_book_id": {
+                    "_": "19501",
+                    "type": "integer"
+                  },
+                  "sort_by_name": "gilbert, elizabeth",
+                  "shelf_display_name": "Gilbert, Elizabeth",
+                  "author_uri": "kca://author/amzn1.gr.author.v1.a0QtjUgPRzla4c7EubuSDA"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "readstatus",
+        "action_text": "is currently reading <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/3616599565\">Working in Public: The Making and Maintenance of Open Source Software</a>",
+        "link": "https://www.goodreads.com/read_statuses/3971152828",
+        "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Tue, 27 Oct 2020 18:59:19 -0700",
+        "object": {
+          "read_status": {
+            "id": {
+              "_": "3971152828",
+              "type": "integer"
+            },
+            "review_id": {
+              "_": "3616599565",
+              "type": "integer"
+            },
+            "user_id": {
+              "_": "34788469",
+              "type": "integer"
+            },
+            "old_status": {
+              "nil": "true"
+            },
+            "status": "currently-reading",
+            "updated_at": {
+              "_": "2020-10-28T01:59:19+00:00",
+              "type": "datetime"
+            },
+            "review": {
+              "id": {
+                "_": "3616599565",
+                "type": "integer"
+              },
+              "user_id": {
+                "_": "34788469",
+                "type": "integer"
+              },
+              "book_id": {
+                "_": "54140556",
+                "type": "integer"
+              },
+              "rating": {
+                "_": "0",
+                "type": "integer"
+              },
+              "read_status": "currently-reading",
+              "sell_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "review": {
+                "nil": "true"
+              },
+              "recommendation": {
+                "nil": "true"
+              },
+              "read_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "updated_at": {
+                "_": "2020-10-28T01:59:19+00:00",
+                "type": "datetime"
+              },
+              "created_at": {
+                "_": "2020-10-28T01:59:18+00:00",
+                "type": "datetime"
+              },
+              "comments_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "weight": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_sum": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "spoiler_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "recommender_user_id1": {
+                "_": "0",
+                "type": "integer"
+              },
+              "recommender_user_name1": {
+                "nil": "true"
+              },
+              "work_id": {
+                "_": "84493736",
+                "type": "integer"
+              },
+              "last_comment_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "started_at": {
+                "_": "2020-10-28T01:59:19+00:00",
+                "type": "datetime"
+              },
+              "hidden_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "language_code": {
+                "type": "integer",
+                "nil": "true"
+              },
+              "last_revision_at": {
+                "_": "2020-10-28T01:59:19+00:00",
+                "type": "datetime"
+              },
+              "non_friends_rating_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "encrypted_notes": {
+                "nil": "true"
+              },
+              "book_uri": "kca://book/amzn1.gr.book.v3.i3tYmwYdhEM-NkHe",
+              "notes": {
+                "nil": "true"
+              },
+              "book": {
+                "id": {
+                  "_": "54140556",
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": "84493736",
+                  "type": "integer"
+                },
+                "isbn": "0578675862",
+                "isbn13": "9780578675862",
+                "title": "Working in Public: The Making and Maintenance of Open Source Software",
+                "sort_by_title": "working in public: the making and maintenance of open source software",
+                "author_id": {
+                  "_": "15901359",
+                  "type": "integer"
+                },
+                "author_role": {
+                  "nil": "true"
+                },
+                "asin": {
+                  "nil": "true"
+                },
+                "description": {
+                  "nil": "true"
+                },
+                "format": "Hardcover",
+                "publication_year": {
+                  "_": "2020",
+                  "type": "integer"
+                },
+                "publication_month": {
+                  "_": "7",
+                  "type": "integer"
+                },
+                "publication_day": {
+                  "_": "14",
+                  "type": "integer"
+                },
+                "num_pages": {
+                  "_": "256",
+                  "type": "integer"
+                },
+                "publisher": "Stripe Press",
+                "language_code": "eng",
+                "edition_information": "1st Edition",
+                "url": {
+                  "nil": "true"
+                },
+                "source_url": {
+                  "nil": "true"
+                },
+                "image_uploaded_at": {
+                  "_": "2020-06-18T02:35:42+00:00",
+                  "type": "datetime"
+                },
+                "s3_image_at": {
+                  "_": "2020-06-18T02:35:44+00:00",
+                  "type": "datetime"
+                },
+                "reviews_count": {
+                  "_": "1126",
+                  "type": "integer"
+                },
+                "ratings_sum": {
+                  "_": "398",
+                  "type": "integer"
+                },
+                "ratings_count": {
+                  "_": "95",
+                  "type": "integer"
+                },
+                "text_reviews_count": {
+                  "_": "18",
+                  "type": "integer"
+                },
+                "book_authors_count": {
+                  "_": "0",
+                  "type": "integer"
+                },
+                "updated_at": {
+                  "_": "2020-11-02T09:55:53+00:00",
+                  "type": "datetime"
+                },
+                "created_at": {
+                  "_": "2020-06-17T17:32:38+00:00",
+                  "type": "datetime"
+                },
+                "author_id_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "author_role_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "description_updater_user_id": {
+                  "_": "15409835",
+                  "type": "integer"
+                },
+                "edition_information_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "format_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "image_updater_user_id": {
+                  "_": "15409835",
+                  "type": "integer"
+                },
+                "isbn_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "isbn13_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "language_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "num_pages_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "publication_date_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "publisher_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "title_updater_user_id": {
+                  "_": "4357928",
+                  "type": "integer"
+                },
+                "url_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "title_language_code": {
+                  "nil": "true"
+                },
+                "publisher_language_code": {
+                  "nil": "true"
+                },
+                "description_language_code": {
+                  "nil": "true"
+                },
+                "asin_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "book_uri": "kca://book/amzn1.gr.book.v3.i3tYmwYdhEM-NkHe",
+                "author": {
+                  "id": {
+                    "_": "15901359",
+                    "type": "integer"
+                  },
+                  "name": "Nadia Eghbal",
+                  "updated_at": {
+                    "_": "2020-11-01T10:14:18+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2016-09-30T05:13:48+00:00",
+                    "type": "datetime"
+                  },
+                  "image_uploaded_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "user_id": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "gender": {
+                    "nil": "true"
+                  },
+                  "country_code": {
+                    "nil": "true"
+                  },
+                  "born_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "died_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "about": {
+                    "nil": "true"
+                  },
+                  "uploader_user_id": {
+                    "_": "0",
+                    "type": "integer"
+                  },
+                  "image_copyright": {
+                    "nil": "true"
+                  },
+                  "influences": {
+                    "nil": "true"
+                  },
+                  "url": {
+                    "nil": "true"
+                  },
+                  "genre1": {
+                    "nil": "true"
+                  },
+                  "genre2": {
+                    "nil": "true"
+                  },
+                  "genre3": {
+                    "nil": "true"
+                  },
+                  "books_count": {
+                    "_": "5",
+                    "type": "integer"
+                  },
+                  "reviews_count": {
+                    "_": "1566",
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": "682",
+                    "type": "integer"
+                  },
+                  "works_count": {
+                    "_": "4",
+                    "type": "integer"
+                  },
+                  "hometown": {
+                    "nil": "true"
+                  },
+                  "rating_dist": {
+                    "nil": "true"
+                  },
+                  "s3_image_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "ratings_count": {
+                    "_": "163",
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": "26",
+                    "type": "integer"
+                  },
+                  "author_program_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "best_book_id": {
+                    "_": "54140556",
+                    "type": "integer"
+                  },
+                  "sort_by_name": "eghbal, nadia",
+                  "shelf_display_name": "Eghbal, Nadia",
+                  "author_uri": "kca://author/amzn1.gr.author.v1.MOv2V4JCVl8LHwEog2n36g"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "readstatus",
+        "action_text": "is currently reading <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/3616599117\">Anna Kerenin</a>",
+        "link": "https://www.goodreads.com/read_statuses/3971152254",
+        "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Tue, 27 Oct 2020 18:59:04 -0700",
+        "object": {
+          "read_status": {
+            "id": {
+              "_": "3971152254",
+              "type": "integer"
+            },
+            "review_id": {
+              "_": "3616599117",
+              "type": "integer"
+            },
+            "user_id": {
+              "_": "34788469",
+              "type": "integer"
+            },
+            "old_status": {
+              "nil": "true"
+            },
+            "status": "currently-reading",
+            "updated_at": {
+              "_": "2020-10-28T01:59:03+00:00",
+              "type": "datetime"
+            },
+            "review": {
+              "id": {
+                "_": "3616599117",
+                "type": "integer"
+              },
+              "user_id": {
+                "_": "34788469",
+                "type": "integer"
+              },
+              "book_id": {
+                "_": "21496075",
+                "type": "integer"
+              },
+              "rating": {
+                "_": "0",
+                "type": "integer"
+              },
+              "read_status": "currently-reading",
+              "sell_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "review": {
+                "nil": "true"
+              },
+              "recommendation": {
+                "nil": "true"
+              },
+              "read_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "updated_at": {
+                "_": "2020-10-28T01:59:03+00:00",
+                "type": "datetime"
+              },
+              "created_at": {
+                "_": "2020-10-28T01:59:03+00:00",
+                "type": "datetime"
+              },
+              "comments_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "weight": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_sum": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "spoiler_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "recommender_user_id1": {
+                "_": "0",
+                "type": "integer"
+              },
+              "recommender_user_name1": {
+                "nil": "true"
+              },
+              "work_id": {
+                "_": "2507928",
+                "type": "integer"
+              },
+              "last_comment_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "started_at": {
+                "_": "2020-10-28T01:59:03+00:00",
+                "type": "datetime"
+              },
+              "hidden_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "language_code": {
+                "type": "integer",
+                "nil": "true"
+              },
+              "last_revision_at": {
+                "_": "2020-10-28T01:59:03+00:00",
+                "type": "datetime"
+              },
+              "non_friends_rating_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "encrypted_notes": {
+                "nil": "true"
+              },
+              "book_uri": "kca://book/amzn1.gr.book.v1.Rmdobo1Io1_bLHmaDR2wZA",
+              "notes": {
+                "nil": "true"
+              },
+              "book": {
+                "id": {
+                  "_": "21496075",
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": "2507928",
+                  "type": "integer"
+                },
+                "isbn": {
+                  "nil": "true"
+                },
+                "isbn13": {
+                  "nil": "true"
+                },
+                "title": "Anna Kerenin",
+                "sort_by_title": "anna kerenin",
+                "author_id": {
+                  "_": "128382",
+                  "type": "integer"
+                },
+                "author_role": {
+                  "nil": "true"
+                },
+                "asin": "B00HHDQPOS",
+                "description": "a novel",
+                "format": "Kindle Edition",
+                "publication_year": {
+                  "_": "2013",
+                  "type": "integer"
+                },
+                "publication_month": {
+                  "_": "12",
+                  "type": "integer"
+                },
+                "publication_day": {
+                  "_": "22",
+                  "type": "integer"
+                },
+                "num_pages": {
+                  "_": "555",
+                  "type": "integer"
+                },
+                "publisher": "SFA-89",
+                "language_code": "eng",
+                "edition_information": {
+                  "nil": "true"
+                },
+                "url": {
+                  "nil": "true"
+                },
+                "source_url": {
+                  "nil": "true"
+                },
+                "image_uploaded_at": {
+                  "_": "2014-03-18T21:06:00+00:00",
+                  "type": "datetime"
+                },
+                "s3_image_at": {
+                  "_": "2015-06-16T06:48:29+00:00",
+                  "type": "datetime"
+                },
+                "reviews_count": {
+                  "_": "154",
+                  "type": "integer"
+                },
+                "ratings_sum": {
+                  "_": "150",
+                  "type": "integer"
+                },
+                "ratings_count": {
+                  "_": "37",
+                  "type": "integer"
+                },
+                "text_reviews_count": {
+                  "_": "5",
+                  "type": "integer"
+                },
+                "book_authors_count": {
+                  "_": "0",
+                  "type": "integer"
+                },
+                "updated_at": {
+                  "_": "2020-10-29T08:26:09+00:00",
+                  "type": "datetime"
+                },
+                "created_at": {
+                  "_": "2014-03-18T21:05:59+00:00",
+                  "type": "datetime"
+                },
+                "author_id_updater_user_id": {
+                  "_": "14846236",
+                  "type": "integer"
+                },
+                "author_role_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "description_updater_user_id": {
+                  "_": "4570210",
+                  "type": "integer"
+                },
+                "edition_information_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "format_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "image_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "isbn_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "isbn13_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "language_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "num_pages_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "publication_date_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "publisher_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "title_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "url_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "title_language_code": {
+                  "nil": "true"
+                },
+                "publisher_language_code": {
+                  "nil": "true"
+                },
+                "description_language_code": {
+                  "nil": "true"
+                },
+                "asin_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "book_uri": "kca://book/amzn1.gr.book.v1.Rmdobo1Io1_bLHmaDR2wZA",
+                "author": {
+                  "id": {
+                    "_": "128382",
+                    "type": "integer"
+                  },
+                  "name": "Leo Tolstoy",
+                  "updated_at": {
+                    "_": "2020-11-02T23:56:32+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2007-03-02T02:41:19+00:00",
+                    "type": "datetime"
+                  },
+                  "image_uploaded_at": {
+                    "_": "2019-05-19T15:24:45+00:00",
+                    "type": "datetime"
+                  },
+                  "user_id": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "gender": "M",
+                  "country_code": "",
+                  "born_at": {
+                    "_": "1828-09-09",
+                    "type": "date"
+                  },
+                  "died_at": {
+                    "_": "1910-11-20",
+                    "type": "date"
+                  },
+                  "about": "<b>Lev Nikolayevich Tolstoy</b> (Russian: [a:Лев Николаевич Толстой|18479204]; commonly <b>Leo Tolstoy</b> in Anglophone countries) was a Russian writer who primarily wrote novels and short stories. Later in life, he also wrote plays and essays. His two most famous works, the novels <i>War and Peace</i> and <i>Anna Karenina</i>, are acknowledged as two of the greatest novels of all time and a pinnacle of realist fiction. Many consider Tolstoy to have been one of the world's greatest novelists. Tolstoy is equally known for his complicated and paradoxical persona and for his extreme moralistic and ascetic views, which he adopted after a moral crisis and spiritual awakening in the 1870s, after which he also became noted as a moral thinker and social reformer.\r\n\r\nHis literal interpretation of the ethical teachings of Jesus, centering on the Sermon on the Mount, caused him in later life to become a fervent Christian anarchist and anarcho-pacifist. His ideas on nonviolent resistance, expressed in such works as <i>The Kingdom of God Is Within You</i>, were to have a profound impact on such pivotal twentieth-century figures as Mohandas Gandhi and Martin Luther King, Jr.",
+                  "uploader_user_id": {
+                    "_": "28638878",
+                    "type": "integer"
+                  },
+                  "image_copyright": "https://www.harringtonbooks.co.uk/pages/author/393/leo-tolstoy/",
+                  "influences": "[a:Alexander Pushkin|16070], [a:Henry David Thoreau|10264], [a:Victor Hugo|13661], [a:Nikolai Gogol|232932], [a:Stendhal|1481537], [a:Pierre-Joseph Proudhon|114439],  [a:Charles Dickens|239579], [a:Schopenhauer|11682], [a:Kropotkin|34296],  [a:Plato|879], [a:Socrates|275648]",
+                  "url": "",
+                  "genre1": "Fiction",
+                  "genre2": "Philosophy",
+                  "genre3": "Non-fiction",
+                  "books_count": {
+                    "_": "20599",
+                    "type": "integer"
+                  },
+                  "reviews_count": {
+                    "_": "3068070",
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": "4993142",
+                    "type": "integer"
+                  },
+                  "works_count": {
+                    "_": "3118",
+                    "type": "integer"
+                  },
+                  "hometown": "Yasnaya Polyana, Tula, Russian Empire",
+                  "rating_dist": {
+                    "nil": "true"
+                  },
+                  "s3_image_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "ratings_count": {
+                    "_": "1230191",
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": "57058",
+                    "type": "integer"
+                  },
+                  "author_program_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "best_book_id": {
+                    "_": "15823480",
+                    "type": "integer"
+                  },
+                  "sort_by_name": "tolstoy, leo",
+                  "shelf_display_name": "Tolstoy, Leo",
+                  "author_uri": "kca://author/amzn1.gr.author.v1.lDq44Mxx0gBfWyqfZwEI1Q"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "readstatus",
+        "action_text": "is currently reading <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/3616598595\">Harry Potter and the Order of the Phoenix (Harry Potter, #5)</a>",
+        "link": "https://www.goodreads.com/read_statuses/3971151598",
+        "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Tue, 27 Oct 2020 18:58:46 -0700",
+        "object": {
+          "read_status": {
+            "id": {
+              "_": "3971151598",
+              "type": "integer"
+            },
+            "review_id": {
+              "_": "3616598595",
+              "type": "integer"
+            },
+            "user_id": {
+              "_": "34788469",
+              "type": "integer"
+            },
+            "old_status": {
+              "nil": "true"
+            },
+            "status": "currently-reading",
+            "updated_at": {
+              "_": "2020-10-28T01:58:46+00:00",
+              "type": "datetime"
+            },
+            "review": {
+              "id": {
+                "_": "3616598595",
+                "type": "integer"
+              },
+              "user_id": {
+                "_": "34788469",
+                "type": "integer"
+              },
+              "book_id": {
+                "_": "2",
+                "type": "integer"
+              },
+              "rating": {
+                "_": "0",
+                "type": "integer"
+              },
+              "read_status": "currently-reading",
+              "sell_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "review": {
+                "nil": "true"
+              },
+              "recommendation": {
+                "nil": "true"
+              },
+              "read_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "updated_at": {
+                "_": "2020-10-28T01:58:45+00:00",
+                "type": "datetime"
+              },
+              "created_at": {
+                "_": "2020-10-28T01:58:45+00:00",
+                "type": "datetime"
+              },
+              "comments_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "weight": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_sum": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "spoiler_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "recommender_user_id1": {
+                "_": "0",
+                "type": "integer"
+              },
+              "recommender_user_name1": {
+                "nil": "true"
+              },
+              "work_id": {
+                "_": "2809203",
+                "type": "integer"
+              },
+              "last_comment_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "started_at": {
+                "_": "2020-10-28T01:58:45+00:00",
+                "type": "datetime"
+              },
+              "hidden_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "language_code": {
+                "type": "integer",
+                "nil": "true"
+              },
+              "last_revision_at": {
+                "_": "2020-10-28T01:58:45+00:00",
+                "type": "datetime"
+              },
+              "non_friends_rating_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "encrypted_notes": {
+                "nil": "true"
+              },
+              "book_uri": "kca://book/amzn1.gr.book.v1.uGB1cTbG_Dm5BpjL_i7pqw",
+              "notes": {
+                "nil": "true"
+              },
+              "book": {
+                "id": {
+                  "_": "2",
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": "2809203",
+                  "type": "integer"
+                },
+                "isbn": "0439358078",
+                "isbn13": "9780439358071",
+                "title": "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+                "sort_by_title": "harry potter and the order of the phoenix (harry potter, #5)",
+                "author_id": {
+                  "_": "1077326",
+                  "type": "integer"
+                },
+                "author_role": {
+                  "nil": "true"
+                },
+                "asin": {
+                  "nil": "true"
+                },
+                "description": {
+                  "nil": "true"
+                },
+                "format": "Paperback",
+                "publication_year": {
+                  "_": "2004",
+                  "type": "integer"
+                },
+                "publication_month": {
+                  "_": "9",
+                  "type": "integer"
+                },
+                "publication_day": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "num_pages": {
+                  "_": "870",
+                  "type": "integer"
+                },
+                "publisher": "Scholastic Inc.",
+                "language_code": "eng",
+                "edition_information": "US Edition",
+                "url": {
+                  "nil": "true"
+                },
+                "source_url": {
+                  "nil": "true"
+                },
+                "image_uploaded_at": {
+                  "_": "2019-01-08T01:17:45+00:00",
+                  "type": "datetime"
+                },
+                "s3_image_at": {
+                  "_": "2019-01-08T01:17:48+00:00",
+                  "type": "datetime"
+                },
+                "reviews_count": {
+                  "_": "3101400",
+                  "type": "integer"
+                },
+                "ratings_sum": {
+                  "_": "10432717",
+                  "type": "integer"
+                },
+                "ratings_count": {
+                  "_": "2322152",
+                  "type": "integer"
+                },
+                "text_reviews_count": {
+                  "_": "32116",
+                  "type": "integer"
+                },
+                "book_authors_count": {
+                  "_": "1",
+                  "type": "integer"
+                },
+                "updated_at": {
+                  "_": "2020-11-02T09:01:05+00:00",
+                  "type": "datetime"
+                },
+                "created_at": {
+                  "_": "2006-08-20T02:10:13+00:00",
+                  "type": "datetime"
+                },
+                "author_id_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "author_role_updater_user_id": {
+                  "_": "6091341",
+                  "type": "integer"
+                },
+                "description_updater_user_id": {
+                  "_": "12399851",
+                  "type": "integer"
+                },
+                "edition_information_updater_user_id": {
+                  "_": "4628840",
+                  "type": "integer"
+                },
+                "format_updater_user_id": {
+                  "_": "4628840",
+                  "type": "integer"
+                },
+                "image_updater_user_id": {
+                  "_": "4628840",
+                  "type": "integer"
+                },
+                "isbn_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "isbn13_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "language_updater_user_id": {
+                  "_": "732181",
+                  "type": "integer"
+                },
+                "num_pages_updater_user_id": {
+                  "_": "33480030",
+                  "type": "integer"
+                },
+                "publication_date_updater_user_id": {
+                  "_": "12399851",
+                  "type": "integer"
+                },
+                "publisher_updater_user_id": {
+                  "_": "40708679",
+                  "type": "integer"
+                },
+                "title_updater_user_id": {
+                  "_": "50328357",
+                  "type": "integer"
+                },
+                "url_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "title_language_code": {
+                  "nil": "true"
+                },
+                "publisher_language_code": {
+                  "nil": "true"
+                },
+                "description_language_code": {
+                  "nil": "true"
+                },
+                "asin_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "book_uri": "kca://book/amzn1.gr.book.v1.uGB1cTbG_Dm5BpjL_i7pqw",
+                "author": {
+                  "id": {
+                    "_": "1077326",
+                    "type": "integer"
+                  },
+                  "name": "J.K. Rowling",
+                  "updated_at": {
+                    "_": "2020-11-03T00:12:26+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2007-12-28T21:03:34+00:00",
+                    "type": "datetime"
+                  },
+                  "image_uploaded_at": {
+                    "_": "2020-07-31T17:30:14+00:00",
+                    "type": "datetime"
+                  },
+                  "user_id": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "gender": "F",
+                  "country_code": "GB",
+                  "born_at": {
+                    "_": "1965-07-31",
+                    "type": "date"
+                  },
+                  "died_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "about": "See also: [a:Robert Galbraith|383606]\r\nAlthough she writes under the pen name <b>J.K. Rowling</b>, pronounced like <i>rolling</i>, her name when her first <i>Harry Potter</i> book was published was simply <b>Joanne Rowling</b>. Anticipating that the target audience of young boys might not want to read a book written by a woman, her publishers demanded that she use two initials, rather than her full name. As she had no middle name, she chose <b>K</b> as the second initial of her pen name, from her paternal grandmother Kathleen Ada Bulgen Rowling. She calls herself <b>Jo</b> and has said, \"No one ever called me 'Joanne' when I was young, unless they were angry.\" Following her marriage, she has sometimes used the name <b>Joanne Murray</b> when conducting personal business. During the Leveson Inquiry she gave evidence under the name of <b>Joanne Kathleen Rowling</b>. In a 2012 interview, Rowling noted that she no longer cared that people pronounced her name incorrectly.\r\n\r\nRowling was born to Peter James Rowling, a Rolls-Royce aircraft engineer, and Anne Rowling (née Volant), on 31 July 1965 in Yate, Gloucestershire, England, 10 miles (16 km) northeast of Bristol. Her mother Anne was half-French and half-Scottish. Her parents first met on a train departing from King's Cross Station bound for Arbroath in 1964. They married on 14 March 1965. Her mother's maternal grandfather, Dugald Campbell, was born in Lamlash on the Isle of Arran. Her mother's paternal grandfather, Louis Volant, was awarded the Croix de Guerre for exceptional bravery in defending the village of Courcelles-le-Comte during the First World War.\r\n\r\nRowling's sister Dianne was born at their home when Rowling was 23 months old. The family moved to the nearby village Winterbourne when Rowling was four. She attended St Michael's Primary School, a school founded by abolitionist William Wilberforce and education reformer Hannah More. Her headmaster at St Michael's, Alfred Dunn, has been suggested as the inspiration for the <i>Harry Potter</i> headmaster Albus Dumbledore.\r\n\r\nAs a child, Rowling often wrote fantasy stories, which she would usually then read to her sister. She recalls that: \"I can still remember me telling her a story in which she fell down a rabbit hole and was fed strawberries by the rabbit family inside it. Certainly the first story I ever wrote down (when I was five or six) was about a rabbit called Rabbit. He got the measles and was visited by his friends, including a giant bee called Miss Bee.\"  At the age of nine, Rowling moved to Church Cottage in the Gloucestershire village of Tutshill, close to Chepstow, Wales. When she was a young teenager, her great aunt, who Rowling said \"taught classics and approved of a thirst for knowledge, even of a questionable kind,\" gave her a very old copy of Jessica Mitford's autobiography, <i>Hons and Rebels</i>. Mitford became Rowling's heroine, and Rowling subsequently read all of her books.\r\n\r\nRowling has said of her teenage years, in an interview with The New Yorker, \"I wasn’t particularly happy. I think it’s a dreadful time of life.\" She had a difficult homelife; her mother was ill and she had a difficult relationship with her father (she is no longer on speaking terms with him). She attended secondary school at Wyedean School and College, where her mother had worked as a technician in the science department. Rowling said of her adolescence, \"Hermione [a bookish, know-it-all <i>Harry Potter</i> character] is loosely based on me. She's a caricature of me when I was eleven, which I'm not particularly proud of.\" Steve Eddy, who taught Rowling English when she first arrived, remembers her as \"not exceptional\" but \"one of a group of girls who were bright, and quite good at English.\" Sean Harris, her best friend in the Upper Sixth owned a turquoise Ford Anglia, which she says inspired the one in her books.",
+                  "uploader_user_id": {
+                    "_": "14059993",
+                    "type": "integer"
+                  },
+                  "image_copyright": "https://www.jkrowling.com/media-kit/",
+                  "influences": "[a:Jane Austen|1265], [a:Geoffrey Chaucer|1838], [a:Oscar Wilde|3565], [a:C.S. Lewis|1069006]",
+                  "url": "http://www.jkrowling.com",
+                  "genre1": "Fiction",
+                  "genre2": "Young-adult",
+                  "genre3": "Fantasy",
+                  "books_count": {
+                    "_": "6704",
+                    "type": "integer"
+                  },
+                  "reviews_count": {
+                    "_": "35542440",
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": "115004293",
+                    "type": "integer"
+                  },
+                  "works_count": {
+                    "_": "258",
+                    "type": "integer"
+                  },
+                  "hometown": "Yate, South Gloucestershire, England",
+                  "rating_dist": "5:1790645|4:985580|3:445251|2:91064|1:33493|total:334603",
+                  "s3_image_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "ratings_count": {
+                    "_": "25777909",
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": "583992",
+                    "type": "integer"
+                  },
+                  "author_program_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "best_book_id": {
+                    "_": "3",
+                    "type": "integer"
+                  },
+                  "sort_by_name": "rowling, j.k.",
+                  "shelf_display_name": "Rowling, J.K.",
+                  "author_uri": "kca://author/amzn1.gr.author.v1.SHA8asP5mFyLIP9NlujvLQ"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "readstatus",
+        "action_text": "wants to read <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/3616596585\">Greenlights</a>",
+        "link": "https://www.goodreads.com/read_statuses/3971148999",
+        "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Tue, 27 Oct 2020 18:57:36 -0700",
+        "object": {
+          "read_status": {
+            "id": {
+              "_": "3971148999",
+              "type": "integer"
+            },
+            "review_id": {
+              "_": "3616596585",
+              "type": "integer"
+            },
+            "user_id": {
+              "_": "34788469",
+              "type": "integer"
+            },
+            "old_status": {
+              "nil": "true"
+            },
+            "status": "to-read",
+            "updated_at": {
+              "_": "2020-10-28T01:57:36+00:00",
+              "type": "datetime"
+            },
+            "review": {
+              "id": {
+                "_": "3616596585",
+                "type": "integer"
+              },
+              "user_id": {
+                "_": "34788469",
+                "type": "integer"
+              },
+              "book_id": {
+                "_": "52838315",
+                "type": "integer"
+              },
+              "rating": {
+                "_": "0",
+                "type": "integer"
+              },
+              "read_status": "to-read",
+              "sell_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "review": {
+                "nil": "true"
+              },
+              "recommendation": {
+                "nil": "true"
+              },
+              "read_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "updated_at": {
+                "_": "2020-10-28T01:57:36+00:00",
+                "type": "datetime"
+              },
+              "created_at": {
+                "_": "2020-10-28T01:57:36+00:00",
+                "type": "datetime"
+              },
+              "comments_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "weight": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_sum": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "spoiler_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "recommender_user_id1": {
+                "_": "0",
+                "type": "integer"
+              },
+              "recommender_user_name1": {
+                "nil": "true"
+              },
+              "work_id": {
+                "_": "78998213",
+                "type": "integer"
+              },
+              "last_comment_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "started_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "hidden_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "language_code": {
+                "type": "integer",
+                "nil": "true"
+              },
+              "last_revision_at": {
+                "_": "2020-10-28T01:57:36+00:00",
+                "type": "datetime"
+              },
+              "non_friends_rating_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "encrypted_notes": {
+                "nil": "true"
+              },
+              "book_uri": "kca://book/amzn1.gr.book.v3.Rrh-YSf15hHFhBkr",
+              "notes": {
+                "nil": "true"
+              },
+              "book": {
+                "id": {
+                  "_": "52838315",
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": "78998213",
+                  "type": "integer"
+                },
+                "isbn": "0593139135",
+                "isbn13": "9780593139134",
+                "title": "Greenlights",
+                "sort_by_title": "greenlights",
+                "author_id": {
+                  "_": "3636965",
+                  "type": "integer"
+                },
+                "author_role": {
+                  "nil": "true"
+                },
+                "asin": {
+                  "nil": "true"
+                },
+                "description": {
+                  "nil": "true"
+                },
+                "format": "Hardcover",
+                "publication_year": {
+                  "_": "2020",
+                  "type": "integer"
+                },
+                "publication_month": {
+                  "_": "10",
+                  "type": "integer"
+                },
+                "publication_day": {
+                  "_": "20",
+                  "type": "integer"
+                },
+                "num_pages": {
+                  "_": "304",
+                  "type": "integer"
+                },
+                "publisher": "Crown Publishing Group (NY)",
+                "language_code": "eng",
+                "edition_information": {
+                  "nil": "true"
+                },
+                "url": {
+                  "nil": "true"
+                },
+                "source_url": {
+                  "nil": "true"
+                },
+                "image_uploaded_at": {
+                  "_": "2020-11-02T01:47:39+00:00",
+                  "type": "datetime"
+                },
+                "s3_image_at": {
+                  "_": "2020-11-02T01:47:41+00:00",
+                  "type": "datetime"
+                },
+                "reviews_count": {
+                  "_": "21419",
+                  "type": "integer"
+                },
+                "ratings_sum": {
+                  "_": "7276",
+                  "type": "integer"
+                },
+                "ratings_count": {
+                  "_": "1647",
+                  "type": "integer"
+                },
+                "text_reviews_count": {
+                  "_": "314",
+                  "type": "integer"
+                },
+                "book_authors_count": {
+                  "_": "0",
+                  "type": "integer"
+                },
+                "updated_at": {
+                  "_": "2020-11-02T09:53:38+00:00",
+                  "type": "datetime"
+                },
+                "created_at": {
+                  "_": "2020-03-31T01:33:30+00:00",
+                  "type": "datetime"
+                },
+                "author_id_updater_user_id": {
+                  "_": "2750514",
+                  "type": "integer"
+                },
+                "author_role_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "description_updater_user_id": {
+                  "_": "1849639",
+                  "type": "integer"
+                },
+                "edition_information_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "format_updater_user_id": {
+                  "_": "-51",
+                  "type": "integer"
+                },
+                "image_updater_user_id": {
+                  "_": "61870577",
+                  "type": "integer"
+                },
+                "isbn_updater_user_id": {
+                  "_": "-51",
+                  "type": "integer"
+                },
+                "isbn13_updater_user_id": {
+                  "_": "-51",
+                  "type": "integer"
+                },
+                "language_updater_user_id": {
+                  "_": "2750514",
+                  "type": "integer"
+                },
+                "num_pages_updater_user_id": {
+                  "_": "-51",
+                  "type": "integer"
+                },
+                "publication_date_updater_user_id": {
+                  "_": "-51",
+                  "type": "integer"
+                },
+                "publisher_updater_user_id": {
+                  "_": "-51",
+                  "type": "integer"
+                },
+                "title_updater_user_id": {
+                  "_": "2750514",
+                  "type": "integer"
+                },
+                "url_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "title_language_code": {
+                  "nil": "true"
+                },
+                "publisher_language_code": {
+                  "nil": "true"
+                },
+                "description_language_code": {
+                  "nil": "true"
+                },
+                "asin_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "book_uri": "kca://book/amzn1.gr.book.v3.Rrh-YSf15hHFhBkr",
+                "author": {
+                  "id": {
+                    "_": "3636965",
+                    "type": "integer"
+                  },
+                  "name": "Matthew McConaughey",
+                  "updated_at": {
+                    "_": "2020-11-02T13:15:06+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2010-05-11T04:04:54+00:00",
+                    "type": "datetime"
+                  },
+                  "image_uploaded_at": {
+                    "_": "2020-09-01T16:22:55+00:00",
+                    "type": "datetime"
+                  },
+                  "user_id": {
+                    "_": "120728322",
+                    "type": "integer"
+                  },
+                  "gender": {
+                    "nil": "true"
+                  },
+                  "country_code": "",
+                  "born_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "died_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "about": "Academy Award-winning actor Matthew McConaughey is a married man, a father of three children, and a loyal son and brother. He considers himself a storyteller by occupation, believes it's okay to have a beer on the way to the temple, feels better with a day's sweat on him, and is an aspiring orchestral conductor.\r\n\r\nIn 2009, Matthew and his wife, Camila, founded the just keep livin Foundation, which helps at-risk high school students make healthier mind, body, and spirit choices. In 2019, McConaughey became a professor of practice at the University of Texas at Austin, as well as Minister of Culture/M.O.C. for the University of Texas and the City of Austin. McConaughey is also brand ambassador for Lincoln Motor Company, an owner of the Major League Soccer club Austin FC, and co-creator of his favorite bourbon on the planet, Wild Turkey Longbranch.",
+                  "uploader_user_id": {
+                    "_": "0",
+                    "type": "integer"
+                  },
+                  "image_copyright": "Copyright Vida Alves McConaughey",
+                  "influences": "",
+                  "url": "https://greenlights.com/",
+                  "genre1": "",
+                  "genre2": "",
+                  "genre3": "",
+                  "books_count": {
+                    "_": "13",
+                    "type": "integer"
+                  },
+                  "reviews_count": {
+                    "_": "24385",
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": "9539",
+                    "type": "integer"
+                  },
+                  "works_count": {
+                    "_": "2",
+                    "type": "integer"
+                  },
+                  "hometown": "",
+                  "rating_dist": {
+                    "nil": "true"
+                  },
+                  "s3_image_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "ratings_count": {
+                    "_": "2190",
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": "407",
+                    "type": "integer"
+                  },
+                  "author_program_at": {
+                    "_": "2020-09-01T16:01:03+00:00",
+                    "type": "datetime"
+                  },
+                  "best_book_id": {
+                    "_": "52838315",
+                    "type": "integer"
+                  },
+                  "sort_by_name": "mcconaughey, matthew",
+                  "shelf_display_name": "McConaughey, Matthew",
+                  "author_uri": "kca://author/amzn1.gr.author.v1.3nO9fwvAJeLOxanihrbKkw"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "readstatus",
+        "action_text": "wants to read <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/3616596412\">Cosa Nostra: A History of the Sicilian Mafia</a>",
+        "link": "https://www.goodreads.com/read_statuses/3971148787",
+        "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Tue, 27 Oct 2020 18:57:31 -0700",
+        "object": {
+          "read_status": {
+            "id": {
+              "_": "3971148787",
+              "type": "integer"
+            },
+            "review_id": {
+              "_": "3616596412",
+              "type": "integer"
+            },
+            "user_id": {
+              "_": "34788469",
+              "type": "integer"
+            },
+            "old_status": {
+              "nil": "true"
+            },
+            "status": "to-read",
+            "updated_at": {
+              "_": "2020-10-28T01:57:31+00:00",
+              "type": "datetime"
+            },
+            "review": {
+              "id": {
+                "_": "3616596412",
+                "type": "integer"
+              },
+              "user_id": {
+                "_": "34788469",
+                "type": "integer"
+              },
+              "book_id": {
+                "_": "473367",
+                "type": "integer"
+              },
+              "rating": {
+                "_": "0",
+                "type": "integer"
+              },
+              "read_status": "to-read",
+              "sell_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "review": {
+                "nil": "true"
+              },
+              "recommendation": {
+                "nil": "true"
+              },
+              "read_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "updated_at": {
+                "_": "2020-10-28T01:57:31+00:00",
+                "type": "datetime"
+              },
+              "created_at": {
+                "_": "2020-10-28T01:57:30+00:00",
+                "type": "datetime"
+              },
+              "comments_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "weight": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_sum": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "spoiler_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "recommender_user_id1": {
+                "_": "0",
+                "type": "integer"
+              },
+              "recommender_user_name1": {
+                "nil": "true"
+              },
+              "work_id": {
+                "_": "461634",
+                "type": "integer"
+              },
+              "last_comment_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "started_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "hidden_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "language_code": {
+                "type": "integer",
+                "nil": "true"
+              },
+              "last_revision_at": {
+                "_": "2020-10-28T01:57:31+00:00",
+                "type": "datetime"
+              },
+              "non_friends_rating_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "encrypted_notes": {
+                "nil": "true"
+              },
+              "book_uri": "kca://book/amzn1.gr.book.v1.698J0sHjhNvtqBFvwuLY5A",
+              "notes": {
+                "nil": "true"
+              },
+              "book": {
+                "id": {
+                  "_": "473367",
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": "461634",
+                  "type": "integer"
+                },
+                "isbn": "1403970424",
+                "isbn13": "9781403970428",
+                "title": "Cosa Nostra: A History of the Sicilian Mafia",
+                "sort_by_title": "cosa nostra: a history of the sicilian mafia",
+                "author_id": {
+                  "_": "86208",
+                  "type": "integer"
+                },
+                "author_role": {
+                  "nil": "true"
+                },
+                "asin": {
+                  "nil": "true"
+                },
+                "description": {
+                  "nil": "true"
+                },
+                "format": "Paperback",
+                "publication_year": {
+                  "_": "2005",
+                  "type": "integer"
+                },
+                "publication_month": {
+                  "_": "10",
+                  "type": "integer"
+                },
+                "publication_day": {
+                  "_": "21",
+                  "type": "integer"
+                },
+                "num_pages": {
+                  "_": "400",
+                  "type": "integer"
+                },
+                "publisher": "St. Martin's Griffin",
+                "language_code": "eng",
+                "edition_information": {
+                  "nil": "true"
+                },
+                "url": {
+                  "nil": "true"
+                },
+                "source_url": {
+                  "nil": "true"
+                },
+                "image_uploaded_at": {
+                  "_": "2011-09-23T00:54:25+00:00",
+                  "type": "datetime"
+                },
+                "s3_image_at": {
+                  "_": "2015-05-16T15:56:35+00:00",
+                  "type": "datetime"
+                },
+                "reviews_count": {
+                  "_": "5391",
+                  "type": "integer"
+                },
+                "ratings_sum": {
+                  "_": "8000",
+                  "type": "integer"
+                },
+                "ratings_count": {
+                  "_": "2058",
+                  "type": "integer"
+                },
+                "text_reviews_count": {
+                  "_": "109",
+                  "type": "integer"
+                },
+                "book_authors_count": {
+                  "_": "0",
+                  "type": "integer"
+                },
+                "updated_at": {
+                  "_": "2020-11-02T09:05:17+00:00",
+                  "type": "datetime"
+                },
+                "created_at": {
+                  "_": "2007-03-28T02:03:00+00:00",
+                  "type": "datetime"
+                },
+                "author_id_updater_user_id": {
+                  "_": "-1022",
+                  "type": "integer"
+                },
+                "author_role_updater_user_id": {
+                  "_": "2640167",
+                  "type": "integer"
+                },
+                "description_updater_user_id": {
+                  "_": "66648866",
+                  "type": "integer"
+                },
+                "edition_information_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "format_updater_user_id": {
+                  "_": "-1022",
+                  "type": "integer"
+                },
+                "image_updater_user_id": {
+                  "_": "-41",
+                  "type": "integer"
+                },
+                "isbn_updater_user_id": {
+                  "_": "-1022",
+                  "type": "integer"
+                },
+                "isbn13_updater_user_id": {
+                  "_": "-1022",
+                  "type": "integer"
+                },
+                "language_updater_user_id": {
+                  "_": "66648866",
+                  "type": "integer"
+                },
+                "num_pages_updater_user_id": {
+                  "_": "-1022",
+                  "type": "integer"
+                },
+                "publication_date_updater_user_id": {
+                  "_": "-1022",
+                  "type": "integer"
+                },
+                "publisher_updater_user_id": {
+                  "_": "-1022",
+                  "type": "integer"
+                },
+                "title_updater_user_id": {
+                  "_": "-1022",
+                  "type": "integer"
+                },
+                "url_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "title_language_code": {
+                  "nil": "true"
+                },
+                "publisher_language_code": {
+                  "nil": "true"
+                },
+                "description_language_code": {
+                  "nil": "true"
+                },
+                "asin_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "book_uri": "kca://book/amzn1.gr.book.v1.698J0sHjhNvtqBFvwuLY5A",
+                "author": {
+                  "id": {
+                    "_": "86208",
+                    "type": "integer"
+                  },
+                  "name": "John Dickie",
+                  "updated_at": {
+                    "_": "2020-11-02T11:16:54+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2007-02-23T02:52:23+00:00",
+                    "type": "datetime"
+                  },
+                  "image_uploaded_at": {
+                    "_": "2020-07-06T10:55:40+00:00",
+                    "type": "datetime"
+                  },
+                  "user_id": {
+                    "_": "117738647",
+                    "type": "integer"
+                  },
+                  "gender": {
+                    "nil": "true"
+                  },
+                  "country_code": {
+                    "nil": "true"
+                  },
+                  "born_at": {
+                    "_": "1963-09-23T08:00:00+00:00",
+                    "type": "datetime"
+                  },
+                  "died_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "about": {
+                    "nil": "true"
+                  },
+                  "uploader_user_id": {
+                    "_": "117738647",
+                    "type": "integer"
+                  },
+                  "image_copyright": "Uploaded by the author.",
+                  "influences": {
+                    "nil": "true"
+                  },
+                  "url": {
+                    "nil": "true"
+                  },
+                  "genre1": {
+                    "nil": "true"
+                  },
+                  "genre2": {
+                    "nil": "true"
+                  },
+                  "genre3": {
+                    "nil": "true"
+                  },
+                  "books_count": {
+                    "_": "180",
+                    "type": "integer"
+                  },
+                  "reviews_count": {
+                    "_": "10368",
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": "13494",
+                    "type": "integer"
+                  },
+                  "works_count": {
+                    "_": "44",
+                    "type": "integer"
+                  },
+                  "hometown": {
+                    "nil": "true"
+                  },
+                  "rating_dist": "5:44|4:92|3:65|2:18|1:13|total:232",
+                  "s3_image_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "ratings_count": {
+                    "_": "3464",
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": "254",
+                    "type": "integer"
+                  },
+                  "author_program_at": {
+                    "_": "2020-07-06T10:55:40+00:00",
+                    "type": "datetime"
+                  },
+                  "best_book_id": {
+                    "_": "473367",
+                    "type": "integer"
+                  },
+                  "sort_by_name": "dickie, john",
+                  "shelf_display_name": "Dickie, John",
+                  "author_uri": "kca://author/amzn1.gr.author.v1.YmUBNP_JLze0EFUWMpzjmQ"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "readstatus",
+        "action_text": "wants to read <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/3574172719\">The Contagion Myth: Why Viruses (including \"Coronavirus\") Are Not the Cause of Disease</a>",
+        "link": "https://www.goodreads.com/read_statuses/3914605851",
+        "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Wed, 30 Sep 2020 12:38:49 -0700",
+        "object": {
+          "read_status": {
+            "id": {
+              "_": "3914605851",
+              "type": "integer"
+            },
+            "review_id": {
+              "_": "3574172719",
+              "type": "integer"
+            },
+            "user_id": {
+              "_": "34788469",
+              "type": "integer"
+            },
+            "old_status": {
+              "nil": "true"
+            },
+            "status": "to-read",
+            "updated_at": {
+              "_": "2020-09-30T19:38:49+00:00",
+              "type": "datetime"
+            },
+            "review": {
+              "id": {
+                "_": "3574172719",
+                "type": "integer"
+              },
+              "user_id": {
+                "_": "34788469",
+                "type": "integer"
+              },
+              "book_id": {
+                "_": "54786062",
+                "type": "integer"
+              },
+              "rating": {
+                "_": "0",
+                "type": "integer"
+              },
+              "read_status": "to-read",
+              "sell_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "review": {
+                "nil": "true"
+              },
+              "recommendation": {
+                "nil": "true"
+              },
+              "read_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "updated_at": {
+                "_": "2020-09-30T19:38:49+00:00",
+                "type": "datetime"
+              },
+              "created_at": {
+                "_": "2020-09-30T19:38:48+00:00",
+                "type": "datetime"
+              },
+              "comments_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "weight": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_sum": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "spoiler_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "recommender_user_id1": {
+                "_": "0",
+                "type": "integer"
+              },
+              "recommender_user_name1": {
+                "nil": "true"
+              },
+              "work_id": {
+                "_": "85465895",
+                "type": "integer"
+              },
+              "last_comment_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "started_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "hidden_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "language_code": {
+                "type": "integer",
+                "nil": "true"
+              },
+              "last_revision_at": {
+                "_": "2020-09-30T19:38:49+00:00",
+                "type": "datetime"
+              },
+              "non_friends_rating_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "encrypted_notes": {
+                "nil": "true"
+              },
+              "book_uri": "kca://book/amzn1.gr.book.v3.tqUlNk5rzUtcuyTb",
+              "notes": {
+                "nil": "true"
+              },
+              "book": {
+                "id": {
+                  "_": "54786062",
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": "85465895",
+                  "type": "integer"
+                },
+                "isbn": "1510764623",
+                "isbn13": "9781510764620",
+                "title": "The Contagion Myth: Why Viruses (including \"Coronavirus\") Are Not the Cause of Disease",
+                "sort_by_title": "contagion myth: why viruses (including \"coronavirus\") are not the cause of disease, the",
+                "author_id": {
+                  "_": "203355",
+                  "type": "integer"
+                },
+                "author_role": {
+                  "nil": "true"
+                },
+                "asin": {
+                  "nil": "true"
+                },
+                "description": {
+                  "nil": "true"
+                },
+                "format": "Hardcover",
+                "publication_year": {
+                  "_": "2020",
+                  "type": "integer"
+                },
+                "publication_month": {
+                  "_": "9",
+                  "type": "integer"
+                },
+                "publication_day": {
+                  "_": "29",
+                  "type": "integer"
+                },
+                "num_pages": {
+                  "_": "216",
+                  "type": "integer"
+                },
+                "publisher": "Skyhorse",
+                "language_code": {
+                  "nil": "true"
+                },
+                "edition_information": {
+                  "nil": "true"
+                },
+                "url": {
+                  "nil": "true"
+                },
+                "source_url": {
+                  "nil": "true"
+                },
+                "image_uploaded_at": {
+                  "_": "2020-09-13T18:40:23+00:00",
+                  "type": "datetime"
+                },
+                "s3_image_at": {
+                  "_": "2020-09-22T03:04:05+00:00",
+                  "type": "datetime"
+                },
+                "reviews_count": {
+                  "_": "167",
+                  "type": "integer"
+                },
+                "ratings_sum": {
+                  "_": "71",
+                  "type": "integer"
+                },
+                "ratings_count": {
+                  "_": "16",
+                  "type": "integer"
+                },
+                "text_reviews_count": {
+                  "_": "8",
+                  "type": "integer"
+                },
+                "book_authors_count": {
+                  "_": "1",
+                  "type": "integer"
+                },
+                "updated_at": {
+                  "_": "2020-11-02T09:56:51+00:00",
+                  "type": "datetime"
+                },
+                "created_at": {
+                  "_": "2020-08-02T13:22:40+00:00",
+                  "type": "datetime"
+                },
+                "author_id_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "author_role_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "description_updater_user_id": {
+                  "_": "6304446",
+                  "type": "integer"
+                },
+                "edition_information_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "format_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "image_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "isbn_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "isbn13_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "language_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "num_pages_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "publication_date_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "publisher_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "title_updater_user_id": {
+                  "_": "-44",
+                  "type": "integer"
+                },
+                "url_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "title_language_code": {
+                  "nil": "true"
+                },
+                "publisher_language_code": {
+                  "nil": "true"
+                },
+                "description_language_code": {
+                  "nil": "true"
+                },
+                "asin_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "book_uri": "kca://book/amzn1.gr.book.v3.tqUlNk5rzUtcuyTb",
+                "author": {
+                  "id": {
+                    "_": "203355",
+                    "type": "integer"
+                  },
+                  "name": "Thomas S. Cowan",
+                  "updated_at": {
+                    "_": "2020-11-02T11:18:15+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2007-03-16T06:41:47+00:00",
+                    "type": "datetime"
+                  },
+                  "image_uploaded_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "user_id": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "gender": {
+                    "nil": "true"
+                  },
+                  "country_code": "",
+                  "born_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "died_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "about": "",
+                  "uploader_user_id": {
+                    "_": "806278",
+                    "type": "integer"
+                  },
+                  "image_copyright": "",
+                  "influences": "",
+                  "url": "",
+                  "genre1": "",
+                  "genre2": "",
+                  "genre3": "",
+                  "books_count": {
+                    "_": "4",
+                    "type": "integer"
+                  },
+                  "reviews_count": {
+                    "_": "3222",
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": "3506",
+                    "type": "integer"
+                  },
+                  "works_count": {
+                    "_": "3",
+                    "type": "integer"
+                  },
+                  "hometown": "",
+                  "rating_dist": "5:13|4:11|3:9|2:1|1:1|total:35",
+                  "s3_image_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "ratings_count": {
+                    "_": "880",
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": "85",
+                    "type": "integer"
+                  },
+                  "author_program_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "best_book_id": {
+                    "_": "15940559",
+                    "type": "integer"
+                  },
+                  "sort_by_name": "cowan, thomas s.",
+                  "shelf_display_name": "Cowan, Thomas S.",
+                  "author_uri": "kca://author/amzn1.gr.author.v1.PNilB0HxmG-XuVRAcHkpEg"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "review",
+        "action_text": "gave 4 stars to <a href=\"https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire\">Harry Potter and the Goblet of Fire (Harry Potter, #4)</a> by <a href=\"https://www.goodreads.com/author/show/1077326.J_K_Rowling\">J.K. Rowling</a>",
+        "link": "https://www.goodreads.com/review/show/3279389747",
+        "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554006152l/6._SX50_.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Sun, 27 Sep 2020 16:12:20 -0700",
+        "action": {
+          "type": "rating",
+          "rating": "4"
+        },
+        "object": {
+          "book": {
+            "id": "6",
+            "title": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+            "link": "https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire",
+            "authors": {
+              "author": {
+                "id": "1077326",
+                "name": "J.K. Rowling",
+                "role": "",
+                "image_url": {
+                  "_": "\nhttps://images.gr-assets.com/authors/1596216614p5/1077326.jpg\n",
+                  "nophoto": "false"
+                },
+                "small_image_url": {
+                  "_": "\nhttps://images.gr-assets.com/authors/1596216614p2/1077326.jpg\n",
+                  "nophoto": "false"
+                },
+                "link": "https://www.goodreads.com/author/show/1077326.J_K_Rowling",
+                "average_rating": "4.46",
+                "ratings_count": "25777909",
+                "text_reviews_count": "583992"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "review",
+        "action_text": "gave 4 stars to <a href=\"https://www.goodreads.com/book/show/51022071-catch-and-kill\">Catch and Kill: Lies, Spies, and a Conspiracy to Protect Predators (Hardcover)</a> by <a href=\"https://www.goodreads.com/author/show/17176042.Ronan_Farrow\">Ronan Farrow</a>",
+        "link": "https://www.goodreads.com/review/show/3566841301",
+        "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571119278l/51022071._SX50_SY75_.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Fri, 25 Sep 2020 21:28:07 -0700",
+        "action": {
+          "type": "rating",
+          "rating": "4"
+        },
+        "object": {
+          "book": {
+            "id": "51022071",
+            "title": "Catch and Kill: Lies, Spies, and a Conspiracy to Protect Predators",
+            "link": "https://www.goodreads.com/book/show/51022071-catch-and-kill",
+            "authors": {
+              "author": {
+                "id": "17176042",
+                "name": "Ronan Farrow",
+                "role": "",
+                "image_url": {
+                  "_": "\nhttps://s.gr-assets.com/assets/nophoto/user/m_200x266-d279b33f8eec0f27b7272477f09806be.png\n",
+                  "nophoto": "true"
+                },
+                "small_image_url": {
+                  "_": "\nhttps://s.gr-assets.com/assets/nophoto/user/m_50x66-82093808bca726cb3249a493fbd3bd0f.png\n",
+                  "nophoto": "true"
+                },
+                "link": "https://www.goodreads.com/author/show/17176042.Ronan_Farrow",
+                "average_rating": "4.42",
+                "ratings_count": "70862",
+                "text_reviews_count": "8374"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "readstatus",
+        "action_text": "wants to read <a only_path=\"false\" href=\"https://www.goodreads.com/review/show/3566367536\">High Output Management</a>",
+        "link": "https://www.goodreads.com/read_statuses/3904168884",
+        "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+        "actor": {
+          "id": {
+            "_": "34788469",
+            "type": "integer"
+          },
+          "name": "CJ",
+          "image_url": "https://images.gr-assets.com/users/1453589968p2/34788469.jpg",
+          "link": "https://www.goodreads.com/user/show/34788469-cj"
+        },
+        "updated_at": "Fri, 25 Sep 2020 14:16:00 -0700",
+        "object": {
+          "read_status": {
+            "id": {
+              "_": "3904168884",
+              "type": "integer"
+            },
+            "review_id": {
+              "_": "3566367536",
+              "type": "integer"
+            },
+            "user_id": {
+              "_": "34788469",
+              "type": "integer"
+            },
+            "old_status": {
+              "nil": "true"
+            },
+            "status": "to-read",
+            "updated_at": {
+              "_": "2020-09-25T21:16:00+00:00",
+              "type": "datetime"
+            },
+            "review": {
+              "id": {
+                "_": "3566367536",
+                "type": "integer"
+              },
+              "user_id": {
+                "_": "34788469",
+                "type": "integer"
+              },
+              "book_id": {
+                "_": "324750",
+                "type": "integer"
+              },
+              "rating": {
+                "_": "0",
+                "type": "integer"
+              },
+              "read_status": "to-read",
+              "sell_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "review": {
+                "nil": "true"
+              },
+              "recommendation": {
+                "nil": "true"
+              },
+              "read_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "updated_at": {
+                "_": "2020-09-25T21:16:00+00:00",
+                "type": "datetime"
+              },
+              "created_at": {
+                "_": "2020-09-25T21:15:59+00:00",
+                "type": "datetime"
+              },
+              "comments_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "weight": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_sum": {
+                "_": "0",
+                "type": "integer"
+              },
+              "ratings_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "spoiler_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "recommender_user_id1": {
+                "_": "0",
+                "type": "integer"
+              },
+              "recommender_user_name1": {
+                "nil": "true"
+              },
+              "work_id": {
+                "_": "315440",
+                "type": "integer"
+              },
+              "last_comment_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "started_at": {
+                "type": "datetime",
+                "nil": "true"
+              },
+              "hidden_flag": {
+                "_": "false",
+                "type": "boolean"
+              },
+              "language_code": {
+                "type": "integer",
+                "nil": "true"
+              },
+              "last_revision_at": {
+                "_": "2020-09-25T21:16:00+00:00",
+                "type": "datetime"
+              },
+              "non_friends_rating_count": {
+                "_": "0",
+                "type": "integer"
+              },
+              "encrypted_notes": {
+                "nil": "true"
+              },
+              "book_uri": "kca://book/amzn1.gr.book.v1.jgE9QzjNCHhsyUfr7oY-gQ",
+              "notes": {
+                "nil": "true"
+              },
+              "book": {
+                "id": {
+                  "_": "324750",
+                  "type": "integer"
+                },
+                "work_id": {
+                  "_": "315440",
+                  "type": "integer"
+                },
+                "isbn": "0679762884",
+                "isbn13": "9780679762881",
+                "title": "High Output Management",
+                "sort_by_title": "high output management",
+                "author_id": {
+                  "_": "37708",
+                  "type": "integer"
+                },
+                "author_role": {
+                  "nil": "true"
+                },
+                "asin": {
+                  "nil": "true"
+                },
+                "description": "The essential skill of creating and maintaining new businesses—the art of the entrepreneur—can be summed up in a single word: managing. In <i>High Output Management</i>, Andrew S. Grove, former chairman and CEO (and employee number three) of Intel, shares his perspective on how to build and run a company. Born of Grove’s experiences at one of America’s leading technology companies, this legendary management book is a Silicon Valley staple, equally appropriate for sales managers, accountants, consultants, and teachers, as well as CEOs and startup founders. Grove covers techniques for creating highly productive teams, demonstrating methods of motivation that lead to peak performance—throughout, <i>High Output Management</i> is a practical handbook for navigating real-life business scenarios and a powerful management manifesto with the ability to revolutionize the way we work.",
+                "format": "Paperback",
+                "publication_year": {
+                  "_": "1995",
+                  "type": "integer"
+                },
+                "publication_month": {
+                  "_": "8",
+                  "type": "integer"
+                },
+                "publication_day": {
+                  "_": "29",
+                  "type": "integer"
+                },
+                "num_pages": {
+                  "_": "272",
+                  "type": "integer"
+                },
+                "publisher": "Vintage",
+                "language_code": "en-IN",
+                "edition_information": {
+                  "nil": "true"
+                },
+                "url": {
+                  "nil": "true"
+                },
+                "source_url": {
+                  "nil": "true"
+                },
+                "image_uploaded_at": {
+                  "_": "2012-09-16T13:01:01+00:00",
+                  "type": "datetime"
+                },
+                "s3_image_at": {
+                  "_": "2015-05-16T15:35:42+00:00",
+                  "type": "datetime"
+                },
+                "reviews_count": {
+                  "_": "40974",
+                  "type": "integer"
+                },
+                "ratings_sum": {
+                  "_": "41768",
+                  "type": "integer"
+                },
+                "ratings_count": {
+                  "_": "9722",
+                  "type": "integer"
+                },
+                "text_reviews_count": {
+                  "_": "474",
+                  "type": "integer"
+                },
+                "book_authors_count": {
+                  "_": "0",
+                  "type": "integer"
+                },
+                "updated_at": {
+                  "_": "2020-11-02T09:04:31+00:00",
+                  "type": "datetime"
+                },
+                "created_at": {
+                  "_": "2007-03-13T03:04:25+00:00",
+                  "type": "datetime"
+                },
+                "author_id_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "author_role_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "description_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "edition_information_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "format_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "image_updater_user_id": {
+                  "_": "-110",
+                  "type": "integer"
+                },
+                "isbn_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "isbn13_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "language_updater_user_id": {
+                  "_": "-9",
+                  "type": "integer"
+                },
+                "num_pages_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "publication_date_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "publisher_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "title_updater_user_id": {
+                  "_": "-50",
+                  "type": "integer"
+                },
+                "url_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "title_language_code": {
+                  "nil": "true"
+                },
+                "publisher_language_code": {
+                  "nil": "true"
+                },
+                "description_language_code": {
+                  "nil": "true"
+                },
+                "asin_updater_user_id": {
+                  "type": "integer",
+                  "nil": "true"
+                },
+                "book_uri": "kca://book/amzn1.gr.book.v1.jgE9QzjNCHhsyUfr7oY-gQ",
+                "author": {
+                  "id": {
+                    "_": "37708",
+                    "type": "integer"
+                  },
+                  "name": "Andrew S. Grove",
+                  "updated_at": {
+                    "_": "2020-11-02T11:15:58+00:00",
+                    "type": "datetime"
+                  },
+                  "created_at": {
+                    "_": "2007-02-05T08:09:56+00:00",
+                    "type": "datetime"
+                  },
+                  "image_uploaded_at": {
+                    "_": "2013-11-15T02:56:47+00:00",
+                    "type": "datetime"
+                  },
+                  "user_id": {
+                    "type": "integer",
+                    "nil": "true"
+                  },
+                  "gender": "M",
+                  "country_code": "HU",
+                  "born_at": {
+                    "_": "1936-09-02",
+                    "type": "date"
+                  },
+                  "died_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "about": "Andrew Stephen (\"Andy\") Grove (born 2 September 1936), is a Hungarian-born American businessman, engineer, and author. He is a science pioneer in the semiconductor industry. He escaped from Communist-controlled Hungary at the age of 20 and moved to the United States where he finished his education. He later became CEO of Intel Corporation and helped transform the company into the world's largest manufacturer of semiconductors.\r\n\r\nIn 1968, As a result of his work at Intel, and from his books and professional articles, Grove had a considerable influence on the management of modern electronics manufacturing industries worldwide. He has been called the \"guy who drove the growth phase\" of Silicon Valley.Steve Jobs, when he was considering returning to be Apple's CEO, called Grove, who was someone he \"idolized,\" for his personal advice. One source notes that by his accomplishments at Intel alone, he \"merits a place alongside the great business leaders of the 20th century.\"",
+                  "uploader_user_id": {
+                    "_": "6474600",
+                    "type": "integer"
+                  },
+                  "image_copyright": "http://www.businessinsider.com/2009/1/andy-grove-on-web-20-and-the-valley-slackers",
+                  "influences": "",
+                  "url": "",
+                  "genre1": "",
+                  "genre2": "",
+                  "genre3": "",
+                  "books_count": {
+                    "_": "69",
+                    "type": "integer"
+                  },
+                  "reviews_count": {
+                    "_": "71766",
+                    "type": "integer"
+                  },
+                  "ratings_sum": {
+                    "_": "79130",
+                    "type": "integer"
+                  },
+                  "works_count": {
+                    "_": "12",
+                    "type": "integer"
+                  },
+                  "hometown": "",
+                  "rating_dist": "5:18|4:30|3:37|2:15|1:1|total:101",
+                  "s3_image_at": {
+                    "_": "2015-05-14T23:07:08+00:00",
+                    "type": "datetime"
+                  },
+                  "ratings_count": {
+                    "_": "18840",
+                    "type": "integer"
+                  },
+                  "text_reviews_count": {
+                    "_": "937",
+                    "type": "integer"
+                  },
+                  "author_program_at": {
+                    "type": "datetime",
+                    "nil": "true"
+                  },
+                  "best_book_id": {
+                    "_": "324750",
+                    "type": "integer"
+                  },
+                  "sort_by_name": "grove, andrew s.",
+                  "shelf_display_name": "Grove, Andrew S.",
+                  "author_uri": "kca://author/amzn1.gr.author.v1.ul5b8Ei-dPrLoNCOmKmoqg"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "user_statuses": "\n    "
+}
