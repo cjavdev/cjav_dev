@@ -67,6 +67,29 @@ My partner in crime and I podcast about family, health, parenting, real estate, 
 {%- endfor -%}
 </ul>
 
+## Currently reading ({{ goodreads_reading.books.total }})
+
+<ul class="reading">
+{%- for book in goodreads_reading.books.book -%}
+  <li>
+    <a href="{{ book.link }}">{{ book.title_without_series }}</a>
+    <small></small>
+  </li>
+{%- endfor -%}
+</ul>
+
+
+## Recently read
+
+<ul class="reading">
+{%- for book in goodreads_read.books.book -%}
+  <li>
+    <a href="{{ book.link }}">{{ book.title_without_series }}</a>
+    <small></small>
+  </li>
+{%- endfor -%}
+</ul>
+
 <!-- ## Shameless Affiliate Links -->
 <!--  -->
 <!-- Here's some links to things that I really enjoy, and hope you do to! Buy things so I can get affiliate 🤑 -->
