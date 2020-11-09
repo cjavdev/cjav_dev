@@ -56,8 +56,6 @@ My partner in crime and I podcast about family, health, parenting, real estate, 
 
 ## Writing
 
-(Stale and stalled, I know!)
-
 <ul class="listing">
 {%- for page in collections.post | reverse -%}
   <li>
