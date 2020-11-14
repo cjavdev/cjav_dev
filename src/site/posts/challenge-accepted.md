@@ -26,24 +26,63 @@ of us doing our exercise.
 
 **September**: 100 squats/day
 
+<video width="320" height="240" controls>
+  <source src="/images/squats.mp4">
+</video>
+
 **October**: 100 push-ups/day
 
+<video width="320" height="240" controls>
+  <source src="/images/pushups.mp4">
+</video>
+
+
 **November**: 100 sit-ups/day
+
+<video width="320" height="240" controls>
+  <source src="/images/situps.mp4">
+</video>
 
 
 ## 2019
 
-Eat zero french fries for the entire year. This was an odd
-goal but one that I made because I felt like french fries, in
-particular, triggered me to eat when I shouldn't have been.
+- ✔️  Eat zero French fries
+- ✔️  Pay off truck (don't buy a new car, worst financial decision)
+- ✖️  1300 MEPS (Myzone Effort Points) per month
+- (37/40) 40 books
+- ✖️  Remove PMI from rental mortgage
+
 
 ## 2018
 
+- (49/30) 30 books
 
 ## 2017
 
+- (38/30) 30 books
+
 ## 2016
 
+### Simplify
 
-## 2015
+- *January* – No TV (including youtube/netflix/hulu/streaming/video)
+- *February* – No Facebook
+- *March* – No Alcohol
+- *April* – Only buy food/gas (not things, no clothes, toys, tools, games, furniture etc.)
+- *May* – Run every single day
+- *June* – Swim every single day
+- *July* - No Coffee
+- *August* – No Sugar
+- *September* – No eating out
+- *October* – No Meat
+- *November* – Wake up and get out of bed before 6AM every day
+- *December* – Give away something or donate money every day
 
+### Improve
+
+- 30 books.
+- 24 blog posts.
+
+## 2010
+
+Run 210 miles.
