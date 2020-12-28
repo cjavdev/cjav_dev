@@ -31,15 +31,15 @@ My partner in crime and I podcast about family, health, parenting, real estate, 
 
 ## Recent Videos
 
+These are videos from my [personal channel](https://www.youtube.com/channel/UCYUC-bdnQRJDhZRL2c_NKVw) here.
+
 <ul class="listing">
+  {%- for video in youtube.items -%}
   <li>
-    <a href="https://www.youtube.com/watch?v=LhMPRWOtdZ4" target="_blank">CJ Avilla - Intro to values and types in JavaScript</a>
-    <time datetime="August 30, 2020">August 30, 2020</time>
+    <a href="https://www.youtube.com/watch?v={{video.id.videoId}}" target="_blank">{{video.snippet.title}}</a>
+    <time datetime="{{video.snippet.publishTime}}">{{video.snippet.publishTime}}</time>
   </li>
-  <li>
-    <a href="https://www.youtube.com/watch?v=u8H6awDJVpM" target="_blank">Stripe Developers - Integrating the customer portal</a>
-    <time datetime="June 29, 2020">June 29, 2020</time>
-  </li>
+  {%- endfor -%}
 </ul>
 
 ## Podcast Episodes

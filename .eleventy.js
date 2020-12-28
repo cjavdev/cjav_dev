@@ -1,4 +1,3 @@
-
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 
@@ -6,6 +5,11 @@ module.exports = function(config) {
 
   // A useful way to reference the context we are runing eleventy in
   let env = process.env.ELEVENTY_ENV;
+
+  if(env === "seed" || env === "dev") {
+    // Load `.env` envirnoment variables.
+    require('dotenv').config();
+  }
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/base.njk');

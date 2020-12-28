@@ -1,4 +1,4 @@
 module.exports = {
-  "rootUrl" : "https://site-root-url.com",
+  "rootUrl" : "https://cjav.dev",
   "buildTime" : new Date()
 }
