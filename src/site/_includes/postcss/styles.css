@@ -10,11 +10,7 @@
 .itme {
   width: 60%;
   display: inline-block;
-  content: url("https://cjav.dev/images/cj1.jpg");
-}
-
-.itme:hover {
-  content: url("https://cjav.dev/images/wave.jpg");
+  content: url("https://cjav.dev/images/cjavilla2.jpg");
 }
 
 table td:last-child {
