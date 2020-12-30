@@ -38,6 +38,10 @@ module.exports = function(config) {
 
   // pass some assets right through
   config.addPassthroughCopy("./src/site/images");
+  config.addPassthroughCopy({
+    "node_modules/calendar-heatmap-graph/dist/calendar-heatmap.min.js": "/assets/calendar-heatmap.min.js",
+    "node_modules/calendar-heatmap-graph/dist/calendar-heatmap.min.css": "/assets/calendar-heatmap.min.css",
+  })
 
   // make the seed target act like prod
   env = (env=="seed") ? "prod" : env;

@@ -80,12 +80,12 @@ These are videos from my [personal channel](https://www.youtube.com/channel/UCYU
 ## Recently read
 
 <ul class="reading">
-{%- for book in goodreads_read.books.book -%}
-  <li>
-    <a href="{{ book.link }}">{{ book.title_without_series }}</a>
-    <small></small>
-  </li>
-{%- endfor -%}
+  {%- for book in goodreads_read.books.book -%}
+    <li>
+      <a href="{{ book.link }}">{{ book.title_without_series }}</a>
+      <small></small>
+    </li>
+  {%- endfor -%}
 </ul>
 
 <!-- ## Shameless Affiliate Links -->

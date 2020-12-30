@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.css" />
     <title>{{ title }}</title>
   </head>
   <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
@@ -16,9 +19,7 @@
 
     {% set js %}
       {% include "js/core.js" %}
-      {% include "js/hello.js" %}
     {% endset %}
     <script>{{ js | jsmin | safe }}</script>
-
   </body>
 </html>
