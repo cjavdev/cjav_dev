@@ -12,7 +12,7 @@ I'm interested in learning new programming languages; building high leverage
 tools; and recently, sharing what I've learned from dozens of other incredible
 and generous friends and online strangers in the form of video content.
 
-When AFK, I work on projects around the house and play games with my wife and
+When [AFK](https://www.grammarly.com/blog/afk-meaning/), I work on projects around the house and play games with my wife and
 our two sons.
 
 My partner in crime and I podcast about family, health, parenting, real estate, and money 🎙 @ [avillatheory.com](https://www.avillatheory.com)
