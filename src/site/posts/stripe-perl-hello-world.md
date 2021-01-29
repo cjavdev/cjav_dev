@@ -18,7 +18,7 @@ it handy while trying to get up and running with.
 The very first step was to get the `Net::Stripe` module installed and
 a simple instance initialized with an API key.
 
-```
+```perl
 #!/usr/bin/env perl
 use Net::Stripe;
 $API_KEY = '<this is my real api key like sk_test_xxxx>';
@@ -36,7 +36,7 @@ noticed in the backtrace a call to `_validate_api_version_range`.
 
 So I set the API version like so:
 
-```
+```perl
 #!/usr/bin/env perl
 use Net::Stripe;
 $API_KEY = '<this is my real api key like sk_test_xxxx>';
@@ -49,7 +49,7 @@ After diving deeper with the perl debugger (pretty similar to byebug in ruby!)
 
 Side note: I ran the perl debugger by starting the program with:
 
-```sh
+```
 perl -d ./server.pl
 ```
 
@@ -83,7 +83,7 @@ $VAR1 = bless( {
 See that `_msg` key? Seems to be caused by not having the LWP::Protocol::https module? I
 resolved it by running:
 
-```sh
+```
 cpanm LWP::Protocol::https
 ```
 
@@ -91,7 +91,7 @@ Okay now running `./server.pl` runs without error or output.
 
 Seems like the client is now initialized correctly, so I wanted to make an API call to create a PaymentIntent and did so like this:
 
-```pl
+```perl
 #!/usr/bin/env perl
 use Net::Stripe;
 
@@ -113,7 +113,7 @@ stars on GitHub. /shrug seems legit
 I setup a super basic post endpoint like this:
 
 
-```pl
+```perl
 #!/usr/bin/env perl
 use Mojolicious::Lite -signatures;
 use Net::Stripe;
@@ -135,7 +135,7 @@ app->start;
 
 and start it with
 
-```sh
+```
 ./server.pl daemon
 ```
 
