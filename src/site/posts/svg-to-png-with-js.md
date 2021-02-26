@@ -3,6 +3,8 @@ title: SVG to PNG with JavaScript
 date: 2021-02-20
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-oXRpzLyz6Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 I wanted to take an SVG file generated with some data from Rails and convert
 that into a png that could be exported and used as a thumnail on YouTube. One
 of the odd requirements for the SVG is that I want to use [Google
