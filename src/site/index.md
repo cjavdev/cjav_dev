@@ -88,6 +88,9 @@ These are videos from my [personal channel](https://www.youtube.com/channel/UCYU
   {%- endfor -%}
 </ul>
 
+<hr>
+<p><small>I put out a lot of free content online. If you found something useful and you'd like to keep me caffeinated, you can <a href="https://buy.stripe.com/dR616u4LW91H6FGdQR">buy me a coffee</a>!</small></p>
+
 <!-- ## Shameless Affiliate Links -->
 <!--  -->
 <!-- Here's some links to things that I really enjoy, and hope you do to! Buy things so I can get affiliate 🤑 -->
