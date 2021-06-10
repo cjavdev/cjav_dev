@@ -48,4 +48,13 @@
     data: "/api/podcast-calendar.json",
     itemName: ["episode", "episodes"],
   });
+
+  // Strava calendar
+  var cal = new CalHeatMap();
+  cal.init({
+    ...common,
+    itemSelector: "#strava-cal",
+    data: "/api/strava-calendar.json",
+    itemName: ["ride", "rides"],
+  });
 })();
