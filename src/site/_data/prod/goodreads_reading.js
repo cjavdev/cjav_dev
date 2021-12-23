@@ -12,20 +12,21 @@ const creds = {
 
 module.exports = async () => {
   return new Promise((resolve, reject) => {
-    const gr = goodreads(creds);
-    const oauth = gr.initOAuth('http://localhost:3000/auth/goodreads/callback');
-    gr._setOAuth(oauth);
-    gr._setOAuthToken({
-      OAUTH_TOKEN: creds.key,
-      OAUTH_TOKEN_SECRET: creds.secret,
-    });
-    gr._setAccessToken({
-      ACCESS_TOKEN: creds.access_token,
-      ACCESS_TOKEN_SECRET: creds.access_token_secret
-    });
-    gr.getBooksOnUserShelf('34788469', 'currently-reading').then((reviews) => {
-      seed(JSON.stringify(reviews), `${__dirname}/../dev/goodreads_reading.json`);
-      resolve(reviews);
-    })
+    resolve([])
+    // const gr = goodreads(creds);
+    // const oauth = gr.initOAuth('http://localhost:3000/auth/goodreads/callback');
+    // gr._setOAuth(oauth);
+    // gr._setOAuthToken({
+    //   OAUTH_TOKEN: creds.key,
+    //   OAUTH_TOKEN_SECRET: creds.secret,
+    // });
+    // gr._setAccessToken({
+    //   ACCESS_TOKEN: creds.access_token,
+    //   ACCESS_TOKEN_SECRET: creds.access_token_secret
+    // });
+    // gr.getBooksOnUserShelf('34788469', 'currently-reading').then((reviews) => {
+    //   seed(JSON.stringify(reviews), `${__dirname}/../dev/goodreads_reading.json`);
+    //   resolve(reviews);
+    // })
   });
 }
