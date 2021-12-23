@@ -13,8 +13,13 @@ const reqOptions = {
 };
 
 const fetchPage = async (page) => {
-  const response = await axios.get(`${url}&page=${page}`, reqOptions);
-  return response.data;
+  try {
+    const response = await axios.get(`${url}&page=${page}`, reqOptions);
+    return response.data;
+  } catch (e) {
+    console.error(e);
+    return [];
+  }
 }
 
 module.exports = async () => {

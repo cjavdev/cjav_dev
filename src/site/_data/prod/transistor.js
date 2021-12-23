@@ -9,10 +9,15 @@ const reqOptions = {
 };
 
 module.exports = async () => {
-  const response = await axios.get(url, reqOptions);
-  seed(
-    JSON.stringify(response.data, null, 2),
-    `${__dirname}/../dev/transistor.json`
-  )
-  return response.data;
+  try {
+    const response = await axios.get(url, reqOptions);
+    seed(
+      JSON.stringify(response.data, null, 2),
+      `${__dirname}/../dev/transistor.json`
+    )
+    return response.data;
+  } catch (e) {
+    console.error(e);
+    return [];
+  }
 }

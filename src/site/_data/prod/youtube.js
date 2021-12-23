@@ -22,6 +22,7 @@ module.exports = async () => {
       seed(JSON.stringify(res.data), `${__dirname}/../dev/youtube.json`)
       resolve(res.data);
     } catch (e) {
+      console.error(e)
       reject(e);
     }
   });

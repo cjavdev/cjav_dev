@@ -65,29 +65,6 @@ These are videos from my [personal channel](https://www.youtube.com/channel/UCYU
 {%- endfor -%}
 </ul>
 
-## Currently reading ({{ goodreads_reading.books.total }})
-
-<ul class="reading">
-{%- for book in goodreads_reading.books.book -%}
-  <li>
-    <a href="{{ book.link }}">{{ book.title_without_series }}</a>
-    <small></small>
-  </li>
-{%- endfor -%}
-</ul>
-
-
-## Recently read
-
-<ul class="reading">
-  {%- for book in goodreads_read.books.book -%}
-    <li>
-      <a href="{{ book.link }}">{{ book.title_without_series }}</a>
-      <small></small>
-    </li>
-  {%- endfor -%}
-</ul>
-
 <hr>
 <p><small>I put out a lot of free content online. If you found something useful and you'd like to keep me caffeinated, you can <a href="https://buy.stripe.com/dR616u4LW91H6FGdQR">buy me a coffee</a>!</small></p>
 
@@ -97,5 +74,4 @@ These are videos from my [personal channel](https://www.youtube.com/channel/UCYU
 <!--  -->
 <!--  - [Transistor.fm](https://transistor.fm/?via=cj) -->
 <!--  - [Peloton](https://www.onepeloton.com/referrals/PV6BBX/social-share) ($100 off accessories!) -->
-<!--  - [TaxJar](https://taxjar.grsm.io/cjavilla8858) -->
 <!--  - [TradeGecko](https://go.tradegecko.com/register?code=cjavilla) -->
