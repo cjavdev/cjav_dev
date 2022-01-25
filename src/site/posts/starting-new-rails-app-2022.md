@@ -253,6 +253,7 @@ In order to get Devise to [play nicely with Rails
 and add this line:
 
 ```rb
+# config/initializers/devise.rb
 config.navigational_formats = ['*/*', :html, :turbo_stream]
 ```
 
