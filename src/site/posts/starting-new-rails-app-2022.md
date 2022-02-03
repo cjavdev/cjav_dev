@@ -36,16 +36,16 @@ cd pay-rails-demo
 ```shell
 bundle add letter_opener -g development
 bundle add resque
-bundle add pay
 bundle add stripe
 bundle add devise
+bundle add pay
 ```
 
 1. `letter_opener` easily view emails in development
 2. `resque` background job gem
-3. `pay` the payments engine
-4. `stripe` the payments provider we'll use with `pay`
-5. `devise` the authentication engine
+3. `stripe` the payments provider we'll use with `pay`
+4. `devise` the authentication engine
+5. `pay` the payments engine
 
 
 #### Node modules
@@ -177,6 +177,14 @@ stripe:
   private_key: sk_test_...
   signing_secret:
   - whsec_...
+```
+
+Once these API keys are set, we can create an initializer for Stripe and set the API key:
+
+```rb
+# config/initializers/stripe.rb
+
+Stripe.api_key = Rails.application.credentials.dig(:stripe, :private_key)
 ```
 
 
