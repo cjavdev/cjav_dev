@@ -15,7 +15,7 @@ implement several clients that can be swapped in and out.
 
 For instance, we might have a sample with directories like:
 
-```sh
+```bash
 payment-element
 ├──client
 │  └──html
@@ -143,13 +143,13 @@ using(x) {
 }
 ```
 
-Here's the docs for [`using`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/using-statement).
+Here's the docs for [`using`](https://docs.microsoft.com/en-us/dotnet/cs/language-reference/keywords/using-statement).
 
 ## Don't try to serialize exceptions directly
 
 I was running into this error:
 
-```sh
+```bash
 fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
       An unhandled exception has occurred while executing the request.
       System.NotSupportedException: Serialization and deserialization of 'System.IntPtr' instances are not supported. Path: $.TargetSite.MethodHandle.Value.
