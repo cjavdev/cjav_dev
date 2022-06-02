@@ -3,6 +3,8 @@ title: Rails with payments, auth, esbuild, and tailwind in 2022
 date: 2022-01-05
 ---
 
+**Updated 2022-06-02**
+
 Rails 7 includes several nice features for getting started, here are the steps
 I follow to setup a new Rails application in 2022 for a demo application that
 will:
