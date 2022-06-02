@@ -122,7 +122,7 @@ config.active_job.queue_adapter = :sidekiq
 1. `action_mailer.default_url_options` enable fully qualified URLs
 2. `action_mailer.delivery_method` use letter opener in development
 3. `action_mailer.perform_deliveries` actually show the email
-4. `active_job.queue_adapter` I like to use `resque` as my background job queue
+4. `active_job.queue_adapter` I like to use `sidekiq` as my background job queue
 
 
 #### Create the database
