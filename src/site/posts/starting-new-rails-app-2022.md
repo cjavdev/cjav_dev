@@ -34,7 +34,7 @@ cd pay-rails-demo
 #### NPM modules
 
 ```bash
-npm i esbuild-darwin-64
+npm i esbuild-darwin-arm64
 ```
 
 #### Ruby gems
