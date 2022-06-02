@@ -31,18 +31,24 @@ cd pay-rails-demo
 
 ### Install dependencies
 
+#### NPM modules
+
+```bash
+npm i esbuild-darwin-64
+```
+
 #### Ruby gems
 
 ```shell
 bundle add letter_opener -g development
-bundle add resque
+bundle add sidekiq
 bundle add stripe
 bundle add devise
 bundle add pay
 ```
 
 1. `letter_opener` easily view emails in development
-2. `resque` background job gem
+2. `sidekiq` background job gem
 3. `stripe` the payments provider we'll use with `pay`
 4. `devise` the authentication engine
 5. `pay` the payments engine
@@ -54,46 +60,17 @@ First, I explicitly set the node version I want to use (I'm rocking `16.13.1`), 
 
 ```shell
 nodenv local 16.13.1
-npm i esbuild-rails esbuild-darwin-arm64
-```
-
-1. `esbuild-rails` [Chris Oliver's](https://twitter.com/excid3) [`esbuild-rails`](https://github.com/excid3/esbuild-rails)
-2. `esbuild-darwin-arm64` Required if running on M1 Mac.
-
-
-### Finish setting up JavaScript tools
-
-#### esbuild
-
-
-Create `esbuild.config.js` in the root of the project:
-
-```javascript
-// esbuild.config.js
-
-const path = require('path')
-const rails = require('esbuild-rails')
-
-require("esbuild").build({
-  entryPoints: ["application.js"],
-  bundle: true,
-  outdir: path.join(process.cwd(), "app/assets/builds"),
-  absWorkingDir: path.join(process.cwd(), "app/javascript"),
-  watch: process.argv.includes("--watch"),
-  plugins: [rails()],
-}).catch(() => process.exit(1))
 ```
 
 #### Build scripts
 
 Next, we need to setup the npm scripts for building. I manually update
-`package.json` with the scripts like this (we still need to create
-`esbuild.config.js`, but stick with me we'll do that in a sec):
+`package.json` with the scripts like this:
 
 ```javascript
 "scripts": {
-  "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css",
-  "build": "node esbuild.config.js"
+  "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
+  "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
 }
 ```
 
@@ -114,15 +91,14 @@ web: bin/rails server -p 3000
 js: yarn build --watch
 css: yarn build:css --watch
 stripe: stripe listen --forward-to localhost:3000/pay/webhooks/stripe -c localhost:3000/pay/webhooks/stripe
-jobs: QUEUE=* rake resque:work
+jobs: bundle exec sidekiq
 ```
 
 1. `stripe` starts the Stripe CLI's `listen` that will forward events from Stripe to your local running web server.
 2. `jobs` starts the background job processor
 
 **Note**: I also manually start `redis-server` and have that running in the
-background all the time. It can be handy to run `resque-web` to see a UI for
-interacting with jobs, too.
+background all the time.
 
 Once the following setup steps are complete you should be able to run `bin/dev` to get the server up and running.
 
@@ -140,7 +116,7 @@ config.action_mailer.delivery_method = :letter_opener
 config.action_mailer.perform_deliveries = true
 
 # Jobs
-config.active_job.queue_adapter = :resque
+config.active_job.queue_adapter = :sidekiq
 ```
 
 1. `action_mailer.default_url_options` enable fully qualified URLs
@@ -271,7 +247,6 @@ I also like to be able to logout via a GET request to `/users/sign_out` so I add
 config.sign_out_via = :get
 ```
 
-
 ## Add `Pay`
 
 First, we need to copy and run the migrations for `pay`:
@@ -292,31 +267,115 @@ Next, we'll update the `User` model, adding `pay_customer`, which gives users sp
 
 ```rb
 class User < ApplicationRecord
-  pay_customer
-  # ...
-```
+  pay_customer(
+    default_payment_processor: :stripe,
+    stripe_attributes: :stripe_attributes
+  )
 
-Because we're using `trackable`, the User model will be updated at least every
-time the user logs in or out. This enables us to setup hooks on the User model
-that we can use to automate the creation of the related payment objects, namely
-the Stripe Customer object.
+  def stripe_attributes(pay_customer)
+    attrs = {
+      metadata: {
+        pay_customer_id: pay_customer.id,
+        user_id: id # or pay_customer.owner_id
+      }
+    }
 
-To ensure the Stripe customer is created for every user, I add this after commit hook:
+    if Rails.env.development?
+      attrs[:test_clock] = Stripe::TestHelpers::TestClock.create(
+        frozen_time: Time.now.to_i
+      )
+    end
 
-```rb
-after_commit :maybe_set_payment_processor
-
-def maybe_set_payment_processor
-  if self.pay_customers.empty?
-    set_payment_processor(:stripe)
+    attrs
   end
-end
 ```
 
-Setting the processor will create the database models, but will not actually
-make the API call to create the Stripe Customer until the first time the
-customer's ID is needed, lazily creating the customer JIT.
-
+Setting the default processor will create the database models, but will not
+actually make the API call to create the Stripe Customer until the first time
+the customer's ID is needed, lazily creating the customer JIT.
 
 From here, we can either setup one-time or recurring payments and pay handles
 emailing the customer, handling webhooks, and ensuring data is synced.
+
+
+All at once:
+
+```bash
+rails new myapp -j esbuild -c tailwind -d postgresql -T --main
+cd myapp
+
+nodenv local 16.13.1
+npm i esbuild-darwin-64
+
+bundle add letter_opener -g development
+
+bundle add stripe
+tee config/initializers/stripe.rb <<EOF
+Stripe.api_key = Rails.application.credentials.dig(:stripe, :private_key)
+EOF
+
+bundle add sidekiq
+tee Procfile.dev <<EOF
+web: bin/rails server -p 3000
+js: yarn build --watch
+css: yarn build:css --watch
+stripe: stripe listen --forward-to localhost:3000/pay/webhooks/stripe -c localhost:3000/pay/webhooks/stripe
+jobs: bundle exec sidekiq
+EOF
+
+bundle add devise
+bundle add pay
+
+tee config/routes.rb <<EOF
+Rails.application.routes.draw do
+  root to: "static_pages#root"
+  get '/pricing', to: 'static_pages#pricing'
+end
+EOF
+
+bin/rails db:create
+bin/rails g model User
+bin/rails g controller StaticPages root pricing
+bin/rails generate devise:install
+bin/rails generate devise User
+bin/rails generate devise:views
+
+```
+
+Edit devise migration to enable trackable.
+
+
+```bash
+bin/rails pay:install:migrations
+bin/rails db:migrate
+bin/rails generate pay:views
+bin/rails generate pay:email_views
+```
+
+Update `package.json`
+
+```javascript
+"scripts": {
+  "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
+  "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
+}
+```
+
+Update `config/development.rb`
+
+```ruby
+# Mailers
+config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+config.action_mailer.delivery_method = :letter_opener
+config.action_mailer.perform_deliveries = true
+
+# Jobs
+config.active_job.queue_adapter = :sidekiq
+```
+
+Update `config/initializers/devise.rb`
+
+```ruby
+config.navigational_formats = ['*/*', :html, :turbo_stream]
+config.sign_out_via = :get
+```
