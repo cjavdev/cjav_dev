@@ -187,6 +187,9 @@ Instead of hardcoding the API key, let’s use Airtable Scripting’s
 [`input.config`](https://www.airtable.com/developers/scripting/api/config#input-config)
 to accept an API key as part of the script’s configuration:
 
+*NB*: The API key you put in the settings of a script are accessible to
+_anyone_ with access to the script.
+
 
 ```javascript
 // Click the "gear" icon in the top right to view settings
