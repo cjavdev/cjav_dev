@@ -485,9 +485,24 @@ inner loop is skipped anyways at this point:
 Okay, now this should show at least our header:
 [localhost:8000/billing/prices/](http://localhost:8000/billing/prices/)
 
-Time to fetch prices to hydrate this beast. We want to use the Stripe API
-directly now, we're going to fetch the list of monthly prices filtered by their
-lookup_keys. Later we'll pass in the interval.
+Time to fetch prices to hydrate this beast. At this point we have a few options
+for sourcing the data that will back our pricing page. We'll want to show something like this:
+
+<img src="/images/pricing-table.png" width="600" alt="Screenshot of a pricing table with three prices" />
+
+To get the product name, description, features and their respective prices, we could either
+use the data in the database stored by dj-stripe (much faster!). Or we can fetch from the
+Stripe API (risk of network failure and a little slower).
+
+Here's how we might fetch from dj-stripe's data:
+
+```python
+prices = djstripe.models.Price.filter(**filters)
+```
+
+However, if we want to use the Stripe API directly (which I chose to do), we
+could fetch the list of monthly prices filtered by their `lookup_keys`. Later
+we'll pass in the interval.
 
 ```python
 prices = stripe.Price.list(
