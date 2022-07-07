@@ -1,6 +1,6 @@
 ---
-title: [WIP] How I start Django apps in 2022
-date: 2022-07-06
+title: How I start Django apps in 2022
+date: 2022-07-07
 ---
 
 This is mostly a note to self about the steps for
