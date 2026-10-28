@@ -2,7 +2,9 @@
   command = "npm run build"
   publish = "dist"
   functions = "src/functions"
-  NODE_ENV = "10.15.3"
+
+[build.environment]
+  NODE_VERSION = "24"
 
 [dev]
   command = "npm run start"
